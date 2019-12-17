@@ -24,17 +24,7 @@
             aria-selected="true"
           >Washed</a>
         </li>
-        <li class="nav-item">
-          <a
-            class="nav-link"
-            id="cima-tab"
-            data-toggle="tab"
-            href="#cima"
-            role="tab"
-            aria-controls="cima"
-            aria-selected="false"
-          >CIMA Washed</a>
-        </li>
+        
         <li class="nav-item">
           <a
             class="nav-link"
@@ -44,7 +34,7 @@
             role="tab"
             aria-controls="pulp"
             aria-selected="false"
-          >Pulp Natural</a>
+          >Honey</a>
         </li>
         <li class="nav-item">
           <a
@@ -133,83 +123,6 @@
             </div>
           </div>
         </div>
-
-        <!-- CIMA yeast Clients -->
-        <div class="tab-pane fade" id="cima" role="tabpanel" aria-labelledby="cima-tab">
-          <div class="container">
-            <div class="col-lg-8 my-3">
-              <p>Cillum ad ut irure tempor velit nostrud occaecat ullamco aliqua anim Lorem sint. Veniam sint duis incididunt do esse magna mollit excepteur laborum qui. Id id reprehenderit sit est eu aliqua occaecat quis et velit excepteur laborum mollit dolore eiusmod. Ipsum dolor in occaecat commodo et voluptate minim reprehenderit mollit pariatur. Deserunt non laborum enim et cillum eu deserunt excepteur ea incididunt minim occaecat.</p>
-            </div>
-            <div class="products-grid col-xl-9 col-lg-8 order-lg-2">
-              <div class="row">
-                <div class="col-xl-4 col-sm-6">
-                  <div class="product">
-                    <div class="product-image">
-                      <img
-                        src="../assets/Blueprint-Coffee-Penrose-v17-600x600.jpg"
-                        alt="product"
-                        class="img-fluid"
-                      >
-                    </div>
-                    <div class="py-2">
-                      <a
-                        href="https://blueprintcoffee.com/store/coffee/esperanza/"
-                        class="btn btn-light btn-md"
-                        tabindex="-1"
-                        role="button"
-                        aria
-                        disabled="true"
-                      >Blueprint Coffee</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-xl-4 col-sm-6">
-                  <div class="product">
-                    <div class="product-image">
-                      <img
-                        src="../assets/Blueprint-Coffee-Penrose-v17-600x600.jpg"
-                        alt="product"
-                        class="img-fluid"
-                      >
-                    </div>
-                    <div class="py-2">
-                      <a
-                        href="https://blueprintcoffee.com/store/coffee/esperanza/"
-                        class="btn btn-light btn-md"
-                        tabindex="-1"
-                        role="button"
-                        aria
-                        disabled="true"
-                      >Blueprint Coffee</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-xl-4 col-sm-6">
-                  <div class="product">
-                    <div class="product-image">
-                      <img
-                        src="../assets/Blueprint-Coffee-Penrose-v17-600x600.jpg"
-                        alt="product"
-                        class="img-fluid"
-                      >
-                    </div>
-                    <div class="py-2">
-                      <a
-                        href="https://blueprintcoffee.com/store/coffee/esperanza/"
-                        class="btn btn-light btn-md"
-                        tabindex="-1"
-                        role="button"
-                        aria
-                        disabled="true"
-                      >Blueprint Coffee</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
         <!-- Pulp Natural Clients -->
         <div class="tab-pane fade" id="pulp" role="tabpanel" aria-labelledby="pulp-tab">
           <div class="container">

@@ -37,7 +37,7 @@
           <h2 class="processes">Finca Esperanza</h2>
           <div class="row d-flex justify-content-center">
             <div class="card-deck">
-              <div class="col-sm-6 col-md-6 col-lg-3">
+              <div class="col-sm-6 col-md-6 col-lg-4">
                 <div class="card text-center" style="width: 18rem;">
                   <img class="card-img-top" src="../assets/IMG_0688.jpg" alt="Card image cap">
                   <div class="card-body">
@@ -49,19 +49,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-sm-6 col-md-6 col-lg-3">
-                <div class="card text-center" style="width: 18rem;">
-                  <img class="card-img-top" src="../assets/IMG_0750.jpg" alt="Card image cap">
-                  <div class="card-body">
-                    <h5 class="card-title">CIMA Washed</h5>
-                    <p
-                      class="card-text"
-                    >Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Learn More</a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-6 col-lg-3">
+              <div class="col-sm-6 col-md-6 col-lg-4">
                 <div class="card text-center" style="width: 18rem;">
                   <img class="card-img-top" src="../assets/IMG_0695.jpg" alt="Card image cap">
                   <div class="card-body">
@@ -73,11 +61,11 @@
                   </div>
                 </div>
               </div>
-              <div class="col-sm-6 col-md-6 col-lg-3">
+              <div class="col-sm-6 col-md-6 col-lg-4">
                 <div class="card text-center" style="width: 18rem;">
                   <img class="card-img-top" src="../assets/IMG_0707.jpg" alt="Card image cap">
                   <div class="card-body">
-                    <h5 class="card-title">Pulp Natural</h5>
+                    <h5 class="card-title">Honey</h5>
                     <p
                       class="card-text"
                     >Some quick example text to build on the card title and make up the bulk of the card's content.</p>

@@ -198,7 +198,7 @@
                       <tbody>
                         <tr>
                           <td>Altitude</td>
-                          <td>Otto</td>
+                          <td>1400 - 1600</td>
                         </tr>
                         <tr>
                           <td>Location</td>
@@ -212,12 +212,7 @@
                             <li>Organic</li>
                             <li>Manos De Mujer</li>
                           </td>
-                        </tr>
-                        <tr>
-                          <td>Altitude</td>
-                          <td>Otto</td>
-                          <td>@mdo</td>
-                        </tr>
+                        </tr>                 
                       </tbody>
                     </table>
                   </div>
