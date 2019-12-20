@@ -7,7 +7,7 @@
           <div class="col-lg-12">
             <div class="content">
               <h1>Two Birds Coffee</h1>
-              <hr>
+              <hr />
               <router-link to="/aboutus" class="btn btn-primary">Our Story</router-link>
             </div>
           </div>
@@ -19,13 +19,13 @@
     <div class="container marketing">
       <div class="row">
         <div class="col-lg-4 col-md-6">
-          <img class="rounded-circle" src="../assets/BirdFriendly.jpg" width="350" height="200">
+          <img class="rounded-circle" src="../assets/BirdFriendly.jpg" width="350" height="200" />
         </div>
         <div class="col-lg-4 col-md-6">
-          <img class="rounded-circle" src="../assets/Organic.jpg" width="350" height="200">
+          <img class="rounded-circle" src="../assets/Organic.jpg" width="350" height="200" />
         </div>
         <div class="col-lg-4 col-md-12">
-          <img class="rounded-circle" src="../assets/ManosDeMujer.jpg" width="350" height="200">
+          <img class="rounded-circle" src="../assets/ManosDeMujer.jpg" width="350" height="200" />
         </div>
       </div>
     </div>
@@ -39,7 +39,7 @@
             <div class="card-deck">
               <div class="col-sm-6 col-md-6 col-lg-3">
                 <div class="card text-center" style="width: 18rem;">
-                  <img class="card-img-top" src="../assets/IMG_0688.jpg" alt="Card image cap">
+                  <img class="card-img-top" src="../assets/IMG_0688.jpg" alt="Card image cap" />
                   <div class="card-body">
                     <h5 class="card-title">Washed</h5>
                     <p
@@ -51,7 +51,7 @@
               </div>
               <div class="col-sm-6 col-md-6 col-lg-3">
                 <div class="card text-center" style="width: 18rem;">
-                  <img class="card-img-top" src="../assets/IMG_0750.jpg" alt="Card image cap">
+                  <img class="card-img-top" src="../assets/IMG_0750.jpg" alt="Card image cap" />
                   <div class="card-body">
                     <h5 class="card-title">CIMA Washed</h5>
                     <p
@@ -63,7 +63,7 @@
               </div>
               <div class="col-sm-6 col-md-6 col-lg-3">
                 <div class="card text-center" style="width: 18rem;">
-                  <img class="card-img-top" src="../assets/IMG_0695.jpg" alt="Card image cap">
+                  <img class="card-img-top" src="../assets/IMG_0695.jpg" alt="Card image cap" />
                   <div class="card-body">
                     <h5 class="card-title">Natural</h5>
                     <p
@@ -75,7 +75,7 @@
               </div>
               <div class="col-sm-6 col-md-6 col-lg-3">
                 <div class="card text-center" style="width: 18rem;">
-                  <img class="card-img-top" src="../assets/IMG_0707.jpg" alt="Card image cap">
+                  <img class="card-img-top" src="../assets/IMG_0707.jpg" alt="Card image cap" />
                   <div class="card-body">
                     <h5 class="card-title">Pulp Natural</h5>
                     <p
@@ -109,7 +109,7 @@
                     class="form-control"
                     placeholder="John"
                     v-model="firstName"
-                  >
+                  />
                 </div>
                 <div class="col-md-6 pr-2">
                   <label for="lastName">Last Name</label>
@@ -119,7 +119,7 @@
                     class="form-control"
                     placeholder="Smith"
                     v-model="lastName"
-                  >
+                  />
                 </div>
               </div>
               <div class="form-group">
@@ -130,7 +130,7 @@
                   class="form-control"
                   v-model="company"
                   placeholder="Two Birds Coffee"
-                >
+                />
               </div>
               <div class="form-group">
                 <label for="email">Email Address</label>
@@ -140,7 +140,7 @@
                   class="form-control"
                   v-model="email"
                   placeholder="name@example.com"
-                >
+                />
               </div>
               <div class="form-group">
                 <label>Your Message</label>
@@ -197,7 +197,7 @@ export default {
             firstName: this.firstName,
             lastName: this.lastName,
             email: this.email
-          })
+        })
           .catch(err => {
             console.log(err);
           });
