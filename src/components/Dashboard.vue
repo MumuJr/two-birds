@@ -7,7 +7,7 @@
           <div class="col-lg-12">
             <div class="content">
               <h1>Two Birds Coffee</h1>
-              <hr>
+              <hr />
               <router-link to="/aboutus" class="btn btn-primary">Our Story</router-link>
             </div>
           </div>
@@ -19,13 +19,13 @@
     <div class="container marketing">
       <div class="row">
         <div class="col-lg-4 col-md-6">
-          <img class="rounded-circle" src="../assets/BirdFriendly.jpg" width="350" height="200">
+          <img class="rounded-circle" src="../assets/BirdFriendly.jpg" width="350" height="200" />
         </div>
         <div class="col-lg-4 col-md-6">
-          <img class="rounded-circle" src="../assets/Organic.jpg" width="350" height="200">
+          <img class="rounded-circle" src="../assets/Organic.jpg" width="350" height="200" />
         </div>
         <div class="col-lg-4 col-md-12">
-          <img class="rounded-circle" src="../assets/ManosDeMujer.jpg" width="350" height="200">
+          <img class="rounded-circle" src="../assets/ManosDeMujer.jpg" width="350" height="200" />
         </div>
       </div>
     </div>
@@ -36,46 +36,75 @@
         <div class="process">
           <h2 class="processes">Finca Esperanza</h2>
           <div class="row d-flex justify-content-center">
-            <div class="card-deck">
-              <div class="col-sm-6 col-md-6 col-lg-4">
-                <div class="card text-center" style="width: 18rem;">
-                  <img class="card-img-top" src="../assets/IMG_0688.jpg" alt="Card image cap">
-                  <div class="card-body">
-                    <h5 class="card-title">Washed</h5>
-                    <p
-                      class="card-text"
-                    >Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Learn More</a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-6 col-lg-4">
-                <div class="card text-center" style="width: 18rem;">
-                  <img class="card-img-top" src="../assets/IMG_0695.jpg" alt="Card image cap">
-                  <div class="card-body">
-                    <h5 class="card-title">Natural</h5>
-                    <p
-                      class="card-text"
-                    >Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Learn More</a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-6 col-lg-4">
-                <div class="card text-center" style="width: 18rem;">
-                  <img class="card-img-top" src="../assets/IMG_0707.jpg" alt="Card image cap">
-                  <div class="card-body">
-                    <h5 class="card-title">Honey</h5>
-                    <p
-                      class="card-text"
-                    >Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Learn More</a>
-                  </div>
+            <!-- <div class="card-deck"> -->
+            <div class="col-sm-6 col-md-4 col-lg-4 processCards">
+              <div class="card text-center" style="width: 18rem;">
+                <img class="card-img-top" src="../assets/IMG_0688.jpg" alt="Card image cap" />
+                <div class="card-body">
+                  <h5 class="card-title">Washed</h5>
+                  <p
+                    class="card-text"
+                  >Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Learn More</a>
                 </div>
               </div>
             </div>
+            <div class="col-sm-6 col-md-4 col-lg-4 processCards">
+              <div class="card text-center" style="width: 18rem;">
+                <img class="card-img-top" src="../assets/IMG_0695.jpg" alt="Card image cap" />
+                <div class="card-body">
+                  <h5 class="card-title">Natural</h5>
+                  <p
+                    class="card-text"
+                  >Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Learn More</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-4 processCards">
+              <div class="card text-center" style="width: 18rem;">
+                <img class="card-img-top" src="../assets/IMG_0707.jpg" alt="Card image cap" />
+                <div class="card-body">
+                  <h5 class="card-title">Honey</h5>
+                  <p
+                    class="card-text"
+                  >Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Learn More</a>
+                </div>
+              </div>
+            </div>
+            <!-- </div> -->
           </div>
         </div>
+      </div>
+    </div>
+
+    <!-- SCROLL -->
+
+    <div class="customer-logos">
+      <div class="slide">
+        <img src="../assets/domestique.png" />
+      </div>
+      <div class="slide">
+        <img src="../assets/cattleDog.jpg" />
+      </div>
+      <div class="slide">
+        <img src="../assets/phoenix.jpeg" />
+      </div>
+      <div class="slide">
+        <img src="../assets/strongtree.png" />
+      </div>
+      <div class="slide">
+        <img src="../assets/bluePrint.jpg" />
+      </div>
+      <div class="slide">
+        <img src="../assets/Goodman+Icon.png" />
+      </div>
+      <div class="slide">
+        <img src="../assets/contrabean.png" />
+      </div>
+      <div class="slide">
+        <img src="../assets/theRoasterie.png" />
       </div>
     </div>
 
@@ -97,7 +126,7 @@
                     class="form-control"
                     placeholder="John"
                     v-model="firstName"
-                  >
+                  />
                 </div>
                 <div class="col-md-6 pr-2">
                   <label for="lastName">Last Name</label>
@@ -107,7 +136,7 @@
                     class="form-control"
                     placeholder="Smith"
                     v-model="lastName"
-                  >
+                  />
                 </div>
               </div>
               <div class="form-group">
@@ -118,7 +147,7 @@
                   class="form-control"
                   v-model="company"
                   placeholder="Two Birds Coffee"
-                >
+                />
               </div>
               <div class="form-group">
                 <label for="email">Email Address</label>
@@ -128,7 +157,7 @@
                   class="form-control"
                   v-model="email"
                   placeholder="name@example.com"
-                >
+                />
               </div>
               <div class="form-group">
                 <label>Your Message</label>
@@ -175,6 +204,32 @@ export default {
       messages: []
     };
   },
+  mounted() {
+    $(".customer-logos").slick({
+      slidesToShow: 5,
+      slidesToScroll: 1,
+      autoplay: true,
+      autoplaySpeed: 1500,
+      arrows: false,
+      dots: false,
+      pauseOnHover: false,
+      responsive: [
+        {
+          breakpoint: 768,
+          settings: {
+            slidesToShow: 3
+          }
+        },
+        {
+          breakpoint: 520,
+          settings: {
+            slidesToShow: 2
+          }
+        }
+      ]
+    });
+  },
+
   created() {},
   methods: {
     submitMessage() {
