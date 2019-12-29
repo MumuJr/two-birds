@@ -15,66 +15,29 @@
       </div>
     </div>
 
-    <!-- Section between (Certifications) -->
-    <div class="container marketing">
-      <div class="row">
-        <div class="col-lg-4 col-md-6">
-          <img class="rounded-circle" src="../assets/BirdFriendly.jpg" width="350" height="200" />
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <img class="rounded-circle" src="../assets/Organic.jpg" width="350" height="200" />
-        </div>
-        <div class="col-lg-4 col-md-12">
-          <img class="rounded-circle" src="../assets/ManosDeMujer.jpg" width="350" height="200" />
-        </div>
-      </div>
-    </div>
-
     <!-- Coffee Selection -->
     <div class="section">
       <div class="container">
         <div class="process">
-          <h2 class="processes">Finca Esperanza</h2>
+          <h2 class="processes">Not Just Coffee Importors</h2>
           <div class="row d-flex justify-content-center">
-            <!-- <div class="card-deck"> -->
-            <div class="col-sm-6 col-md-4 col-lg-4 processCards">
-              <div class="card text-center" style="width: 18rem;">
-                <img class="card-img-top" src="../assets/IMG_0688.jpg" alt="Card image cap" />
-                <div class="card-body">
-                  <h5 class="card-title">Washed</h5>
-                  <p
-                    class="card-text"
-                  >Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Learn More</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-6 col-md-4 col-lg-4 processCards">
-              <div class="card text-center" style="width: 18rem;">
-                <img class="card-img-top" src="../assets/IMG_0695.jpg" alt="Card image cap" />
-                <div class="card-body">
-                  <h5 class="card-title">Natural</h5>
-                  <p
-                    class="card-text"
-                  >Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Learn More</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-6 col-md-4 col-lg-4 processCards">
-              <div class="card text-center" style="width: 18rem;">
-                <img class="card-img-top" src="../assets/IMG_0707.jpg" alt="Card image cap" />
-                <div class="card-body">
-                  <h5 class="card-title">Honey</h5>
-                  <p
-                    class="card-text"
-                  >Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Learn More</a>
-                </div>
-              </div>
-            </div>
-            <!-- </div> -->
+            <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi adipisci omnis numquam optio dolores, error fuga, culpa esse!</h2>
           </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Section between (Certifications) -->
+    <div class="container marketing">
+      <div class="row">
+        <div class="col-lg-4 col-md-6">
+          <img class="rounded-circle" src="../assets/BirdFriendly.jpg" width="350" height="225" />
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <img class="rounded-circle" src="../assets/Organic.jpg" width="350" height="225" />
+        </div>
+        <div class="col-lg-4 col-md-12">
+          <img class="rounded-circle" src="../assets/ManosDeMujer.jpg" width="350" height="225" />
         </div>
       </div>
     </div>
@@ -105,6 +68,9 @@
       </div>
       <div class="slide">
         <img src="../assets/theRoasterie.png" />
+      </div>
+      <div class="slide">
+        <img src="../assets/JavaPlanet-copy-4.jpg" />
       </div>
     </div>
 
@@ -211,6 +177,7 @@ export default {
       autoplay: true,
       autoplaySpeed: 1500,
       arrows: false,
+      centerMode: true,
       dots: false,
       pauseOnHover: false,
       responsive: [
