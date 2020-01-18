@@ -9,7 +9,23 @@
       </div>
       <div>
         <div class="jumbotronFinca"></div>
-        <hr class="storyhr">
+        <hr class="storyhr" />
+
+        <!-- Section between (Certifications) -->
+        <div class="container marketing">
+          <div class="row">
+            <div class="col-lg-4 col-md-6">
+              <img class="rounded-circle" src="../assets/BirdFriendly.jpg" width="350" height="225" />
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <img class="rounded-circle" src="../assets/Organic.jpg" width="350" height="225" />
+            </div>
+            <div class="col-lg-4 col-md-12">
+              <img class="rounded-circle" src="../assets/ManosDeMujer.jpg" width="350" height="225" />
+            </div>
+          </div>
+        </div>
+        <hr class="storyhr" />
         <div class="ourStory">
           <h1 class="hero-heading py-2">Meet the team</h1>
           <div class="meetTheTeam">
@@ -19,7 +35,7 @@
                 class="profiles"
                 src="../assets/IMG_0702.jpg"
                 alt="Ana with Chris from Strongtree"
-              >
+              />
             </div>
 
             <div class="individuals middle py-2">
@@ -27,17 +43,17 @@
                 class="profiles"
                 src="../assets/IMG_0702.jpg"
                 alt="Ana with Chris from Strongtree"
-              >
+              />
               <p
                 class="px-3"
               >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam molestiae eius voluptatem blanditiis magni eum soluta rem maiores, accusamus esse quaerat vero nesciunt ullam excepturi facilis eos, beatae pariatur necessitatibus?</p>
             </div>
             <div class="individuals">
               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam molestiae eius voluptatem blanditiis magni eum soluta rem maiores, accusamus esse quaerat vero nesciunt ullam excepturi facilis eos, beatae pariatur necessitatibus?</p>
-              <img class="profiles" src="../assets/IMG_0822.jpg" alt>
+              <img class="profiles" src="../assets/IMG_0822.jpg" alt />
             </div>
           </div>
-          <hr class="storyhr">
+          <hr class="storyhr" />
           <div>
             <h1 class="hero-heading">Our Process</h1>
           </div>
@@ -89,7 +105,7 @@
                   <div class="card mb-3" style="max-width: 540px;">
                     <div class="row no-gutters">
                       <div class="col-md-4">
-                        <img src="../assets/IMG_0688.jpg" class="card-img">
+                        <img src="../assets/IMG_0688.jpg" class="card-img" />
                       </div>
                       <div class="col-md-8">
                         <div class="card-body">
@@ -114,7 +130,7 @@
                   <div class="card mb-3" style="max-width: 540px;">
                     <div class="row no-gutters">
                       <div class="col-md-4">
-                        <img src="../assets/IMG_0688.jpg" class="card-img">
+                        <img src="../assets/IMG_0688.jpg" class="card-img" />
                       </div>
                       <div class="col-md-8">
                         <div class="card-body">
@@ -139,7 +155,7 @@
                   <div class="card mb-3" style="max-width: 540px;">
                     <div class="row no-gutters">
                       <div class="col-md-4">
-                        <img src="../assets/IMG_0688.jpg" class="card-img">
+                        <img src="../assets/IMG_0688.jpg" class="card-img" />
                       </div>
                       <div class="col-md-8">
                         <div class="card-body">
@@ -164,7 +180,7 @@
                   <div class="card mb-3" style="max-width: 540px;">
                     <div class="row no-gutters">
                       <div class="col-md-4">
-                        <img src="../assets/IMG_0688.jpg" class="card-img">
+                        <img src="../assets/IMG_0688.jpg" class="card-img" />
                       </div>
                       <div class="col-md-8">
                         <div class="card-body">
@@ -212,7 +228,7 @@
                             <li>Organic</li>
                             <li>Manos De Mujer</li>
                           </td>
-                        </tr>                 
+                        </tr>
                       </tbody>
                     </table>
                   </div>

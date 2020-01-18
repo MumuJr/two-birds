@@ -19,25 +19,12 @@
     <div class="section">
       <div class="container">
         <div class="process">
-          <h2 class="processes">Not Just Coffee Importors</h2>
-          <div class="row d-flex justify-content-center">
-            <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi adipisci omnis numquam optio dolores, error fuga, culpa esse!</h2>
+          <div>
+            <h2 class="processes">Not your average coffee importors</h2>
           </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Section between (Certifications) -->
-    <div class="container marketing">
-      <div class="row">
-        <div class="col-lg-4 col-md-6">
-          <img class="rounded-circle" src="../assets/BirdFriendly.jpg" width="350" height="225" />
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <img class="rounded-circle" src="../assets/Organic.jpg" width="350" height="225" />
-        </div>
-        <div class="col-lg-4 col-md-12">
-          <img class="rounded-circle" src="../assets/ManosDeMujer.jpg" width="350" height="225" />
+          <div>
+            <h3>Four years ago we started importing coffee from our family owned farm named Finca Esperanza. Improving the quality of the cup every year to meet the standards that roasters expected. Now we are branching out to help new farmers we trust, take the same steps we did and gain access to a market they could never reach.</h3>
+          </div>
         </div>
       </div>
     </div>
