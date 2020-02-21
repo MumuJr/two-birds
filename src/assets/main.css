@@ -363,6 +363,14 @@ div .firstPic {
   align-items: center;
 }
 
+.individuals_description{
+  display: flex;
+  justify-content: center;
+}
+
+.individuals_writing {
+  width: 50%;
+}
 
 
 .storyhr {
