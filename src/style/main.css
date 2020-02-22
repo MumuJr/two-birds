@@ -8,6 +8,13 @@
 
 .navbar {
   border-bottom: 3px solid #4d96d1;
+  height: 80px;
+  width: 100vw;
+  background: hsl(200, 50%, 50%);
+  position: fixed;
+  box-shadow: 0 2px 15px rgba(71, 120, 120, 0.5);
+  transform: translate3d(0, 0, 0);
+  transition: 0.2s all ease-out;
 }
 
 .navbar-brand img {
@@ -16,13 +23,23 @@
 
 /*Nav Bar*/
 
-.navbar-default .navbar-collapse,
+/* .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
   background-color: #ffffff;
-}
+  box-shadow: 0 2px 15px rgba(71, 120, 120, 0.5);
+  transform: translate3d(0, 0, 0);
+
+} */
 
 .navbar-nav>li>a {
   font-size: 1.5rem;
+}
+
+
+.navbar.nav--hidden {
+  box-shadow: none;
+  transition: 0.2s all ease-out;
+  transform: translate3d(0, -100%, 0);
 }
 
 /*Body*/
@@ -32,11 +49,13 @@ body {
 }
 
 .jumbotronMain {
-  background-image: url('IMG_0519.jpg');
+  background-image: url('../assets/IMG_0519.jpg');
   background-size: cover;
   background-position: center;
-  padding-top: 20%;
+  height: 43rem;
   margin-bottom: 0px;
+  display: flex;
+  align-items: flex-end;
 }
 
 .content {
@@ -224,7 +243,7 @@ h2 {
 }
 
 .contact-us {
-  background-image: url('contact.jpg');
+  background-image: url('../assets/contact.jpg');
 }
 
 /* Roasting Page */
@@ -341,7 +360,7 @@ div .firstPic {
 /* Finca Esperanza */
 
 .jumbotronFinca {
-  background-image: url('IMG_0662.jpeg');
+  background-image: url('../assets/IMG_0662.jpeg');
   background-size: cover;
   background-position: center;
   padding-top: 35%;
