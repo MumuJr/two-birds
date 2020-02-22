@@ -1,9 +1,12 @@
 <template>
   <nav>
-    <div class="navbar navbar-expand-md navbar-light bg-light">
+    <div
+      class="navbar navbar-expand-md fixed-top navbar-light bg-light"
+      :class="{ 'nav--hidden': !showNavbar}"
+    >
       <div class="d-flex container">
         <router-link to="/">
-          <img src="../assets/icon-fc-small copy.png" width="55" height="55">
+          <img src="../assets/icon-fc-small copy.png" width="55" height="55" />
         </router-link>
         <button
           class="navbar-toggler"
@@ -49,6 +52,46 @@
     </div>
   </nav>
 </template>
+
+
+
+
+<script>
+export default {
+  data() {
+    return {
+      showNavbar: true,
+      lastScrollPosition: 0
+    };
+  },
+  mounted() {
+    window.addEventListener("scroll", this.onScroll);
+  },
+  beforeDestroy() {
+    window.removeEventListener("scroll", this.onScroll);
+  },
+
+  methods: {
+    onScroll() {
+      // Get the current scroll position
+      const currentScrollPosition =
+        window.pageYOffset || document.documentElement.scrollTop;
+      // Because of momentum scrolling on mobiles, we shouldn't continue if it is less than zero
+      if (currentScrollPosition < 0) {
+        return;
+      }
+      if (Math.abs(currentScrollPosition - this.lastScrollPosition) < 30) {
+        return;
+      }
+
+      // Here we determine whether we need to show or hide the navbar
+      this.showNavbar = currentScrollPosition < this.lastScrollPosition;
+      // Set the current scroll position as the last scroll position
+      this.lastScrollPosition = currentScrollPosition;
+    }
+  }
+};
+</script>
 
 
 

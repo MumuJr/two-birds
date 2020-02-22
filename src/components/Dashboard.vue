@@ -15,6 +15,7 @@
       </div>
     </div>
 
+<<<<<<< HEAD
     <!-- Section between (Certifications) -->
     <div class="container marketing">
       <div class="row">
@@ -30,10 +31,13 @@
       </div>
     </div>
 
+=======
+>>>>>>> develop
     <!-- Coffee Selection -->
     <div class="section">
       <div class="container">
         <div class="process">
+<<<<<<< HEAD
           <h2 class="processes">Finca Esperanza</h2>
           <div class="row d-flex justify-content-center">
             <div class="card-deck">
@@ -86,8 +90,47 @@
                 </div>
               </div>
             </div>
+=======
+          <div>
+            <h2 class="processes">Not your average coffee importors</h2>
+          </div>
+          <div>
+            <h3>Four years ago we started importing coffee from our family owned farm named Finca Esperanza. Improving the quality of the cup every year to meet the standards that roasters expected. Now we are branching out to help new farmers we trust, take the same steps we did and gain access to a market they could never reach.</h3>
+>>>>>>> develop
           </div>
         </div>
+      </div>
+    </div>
+
+    <!-- SCROLL -->
+
+    <div class="customer-logos">
+      <div class="slide">
+        <img src="../assets/domestique.png" />
+      </div>
+      <div class="slide">
+        <img src="../assets/cattleDog.jpg" />
+      </div>
+      <div class="slide">
+        <img src="../assets/phoenix.jpeg" />
+      </div>
+      <div class="slide">
+        <img src="../assets/strongtree.png" />
+      </div>
+      <div class="slide">
+        <img src="../assets/bluePrint.jpg" />
+      </div>
+      <div class="slide">
+        <img src="../assets/Goodman+Icon.png" />
+      </div>
+      <div class="slide">
+        <img src="../assets/contrabean.png" />
+      </div>
+      <div class="slide">
+        <img src="../assets/theRoasterie.png" />
+      </div>
+      <div class="slide">
+        <img src="../assets/JavaPlanet-copy-4.jpg" />
       </div>
     </div>
 
@@ -95,16 +138,16 @@
     <div class="contactus-1 section-image contact-us">
       <div class="col-md-5 col-sm-6 col-8">
         <div class="card card-contact card-raised">
-          <form @sumbit.prevent="submitMessage">
+          <form @sumbit.prevent="submitMessage" data-netlify="true">
             <div class="card-header text-center">
               <h4 class="card-title">Contact Us!</h4>
             </div>
             <div class="card-body">
               <div class="row">
                 <div class="col-md-6 pr-2">
-                  <label for="lastName">First Name</label>
+                  <label for="firstName">First Name</label>
                   <input
-                    name="lastName"
+                    name="firstName"
                     type="text"
                     class="form-control"
                     placeholder="John"
@@ -162,6 +205,9 @@
                     type="button"
                   >Send Message</button>
                 </div>
+                <div class="col-md-6">
+                  <div data-netlify-recaptcha="true"></div>
+                </div>
               </div>
             </div>
           </form>
@@ -172,8 +218,6 @@
 </template>
 
 <script>
-import db from "./firebaseInit";
-
 export default {
   name: "dashboard",
   data() {
@@ -187,10 +231,38 @@ export default {
       messages: []
     };
   },
+  mounted() {
+    $(".customer-logos").slick({
+      slidesToShow: 5,
+      slidesToScroll: 1,
+      autoplay: true,
+      autoplaySpeed: 1500,
+      arrows: false,
+      centerMode: true,
+      dots: false,
+      pauseOnHover: false,
+      responsive: [
+        {
+          breakpoint: 768,
+          settings: {
+            slidesToShow: 3
+          }
+        },
+        {
+          breakpoint: 520,
+          settings: {
+            slidesToShow: 2
+          }
+        }
+      ]
+    });
+  },
+
   created() {},
   methods: {
     submitMessage() {
       if (this.message || this.firstName || this.lastName || this.email) {
+<<<<<<< HEAD
         db.collection("messages")
           .add({
             message: this.message,
@@ -201,6 +273,8 @@ export default {
           .catch(err => {
             console.log(err);
           });
+=======
+>>>>>>> develop
         this.message = null;
         this.firstName = null;
         this.lastName = null;
