@@ -65,16 +65,16 @@
     <div class="contactus-1 section-image contact-us">
       <div class="col-md-5 col-sm-6 col-8">
         <div class="card card-contact card-raised">
-          <form @sumbit.prevent="submitMessage">
+          <form @sumbit.prevent="submitMessage" data-netlify="true">
             <div class="card-header text-center">
               <h4 class="card-title">Contact Us!</h4>
             </div>
             <div class="card-body">
               <div class="row">
                 <div class="col-md-6 pr-2">
-                  <label for="lastName">First Name</label>
+                  <label for="firstName">First Name</label>
                   <input
-                    name="lastName"
+                    name="firstName"
                     type="text"
                     class="form-control"
                     placeholder="John"
@@ -131,6 +131,9 @@
                     class="btn btn-primary pull-right"
                     type="button"
                   >Send Message</button>
+                </div>
+                <div class="col-md-6">
+                  <div data-netlify-recaptcha="true"></div>
                 </div>
               </div>
             </div>
