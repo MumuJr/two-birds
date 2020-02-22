@@ -70,7 +70,7 @@
                     </div>
                     <div class="py-2">
                       <a
-                        href="https://domestiquecoffee.com/product/guatemala"
+                        href="https://www.domestiquecoffee.com/collections/frontpage/products/single-origin-guatemala"
                         class="btn btn-light btn-md roasting"
                         tabindex="-1"
                         role="button"
@@ -103,6 +103,23 @@
                   </div>
                 </div>
                 <div class="col-xl-4 col-sm-6">
+                  <div class="product">
+                    <div class="product-image" id="chosenbean">
+                      <img src="../assets/chosenbean.jpg" alt="product" class="img-fluid">
+                    </div>
+                    <div class="py-2">
+                      <a
+                        href="https://www.thechosenbean.com/guatemala-the-chosen-bean-origin/"
+                        class="btn btn-light btn-md"
+                        tabindex="-1"
+                        role="button"
+                        aria
+                        disabled="true"
+                      >The Chosen Bean</a>
+                    </div>
+                  </div>
+                </div>
+                 <div class="col-xl-4 col-sm-6">
                   <div class="product">
                     <div class="product-image" id="chosenbean">
                       <img src="../assets/chosenbean.jpg" alt="product" class="img-fluid">

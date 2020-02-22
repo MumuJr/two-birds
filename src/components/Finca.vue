@@ -30,7 +30,9 @@
           <h1 class="hero-heading py-2">Meet the team</h1>
           <div class="meetTheTeam">
             <div class="individuals">
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam molestiae eius voluptatem blanditiis magni eum soluta rem maiores, accusamus esse quaerat vero nesciunt ullam excepturi facilis eos, beatae pariatur necessitatibus?</p>
+              <div class="individuals_description">
+                <p class="individuals_writing">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam molestiae eius voluptatem blanditiis magni eum soluta rem maiores, accusamus esse quaerat vero nesciunt ullam excepturi facilis eos, beatae pariatur necessitatibus?</p>
+              </div>
               <img
                 class="profiles"
                 src="../assets/IMG_0702.jpg"
@@ -39,17 +41,15 @@
             </div>
 
             <div class="individuals middle py-2">
-              <img
-                class="profiles"
-                src="../assets/IMG_0702.jpg"
-                alt="Ana with Chris from Strongtree"
-              />
-              <p
-                class="px-3"
-              >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam molestiae eius voluptatem blanditiis magni eum soluta rem maiores, accusamus esse quaerat vero nesciunt ullam excepturi facilis eos, beatae pariatur necessitatibus?</p>
+              <img class="profiles" src="../assets/IMG_0702.jpg" alt="Ana with Chris from Strongtree"/>
+              <div class="individuals_description">
+                <p class="individuals_writing">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam molestiae eius voluptatem blanditiis magni eum soluta rem maiores, accusamus esse quaerat vero nesciunt ullam excepturi facilis eos, beatae pariatur necessitatibus?</p>
+              </div>
             </div>
             <div class="individuals">
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam molestiae eius voluptatem blanditiis magni eum soluta rem maiores, accusamus esse quaerat vero nesciunt ullam excepturi facilis eos, beatae pariatur necessitatibus?</p>
+              <div class="individuals_description">
+                <p class="individuals_writing">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam molestiae eius voluptatem blanditiis magni eum soluta rem maiores, accusamus esse quaerat vero nesciunt ullam excepturi facilis eos, beatae pariatur necessitatibus?</p>
+              </div>
               <img class="profiles" src="../assets/IMG_0822.jpg" alt />
             </div>
           </div>
