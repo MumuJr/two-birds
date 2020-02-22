@@ -15,88 +15,15 @@
       </div>
     </div>
 
-<<<<<<< HEAD
-    <!-- Section between (Certifications) -->
-    <div class="container marketing">
-      <div class="row">
-        <div class="col-lg-4 col-md-6">
-          <img class="rounded-circle" src="../assets/BirdFriendly.jpg" width="350" height="200" />
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <img class="rounded-circle" src="../assets/Organic.jpg" width="350" height="200" />
-        </div>
-        <div class="col-lg-4 col-md-12">
-          <img class="rounded-circle" src="../assets/ManosDeMujer.jpg" width="350" height="200" />
-        </div>
-      </div>
-    </div>
-
-=======
->>>>>>> develop
     <!-- Coffee Selection -->
     <div class="section">
       <div class="container">
         <div class="process">
-<<<<<<< HEAD
-          <h2 class="processes">Finca Esperanza</h2>
-          <div class="row d-flex justify-content-center">
-            <div class="card-deck">
-              <div class="col-sm-6 col-md-6 col-lg-3">
-                <div class="card text-center" style="width: 18rem;">
-                  <img class="card-img-top" src="../assets/IMG_0688.jpg" alt="Card image cap" />
-                  <div class="card-body">
-                    <h5 class="card-title">Washed</h5>
-                    <p
-                      class="card-text"
-                    >Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Learn More</a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-6 col-lg-3">
-                <div class="card text-center" style="width: 18rem;">
-                  <img class="card-img-top" src="../assets/IMG_0750.jpg" alt="Card image cap" />
-                  <div class="card-body">
-                    <h5 class="card-title">CIMA Washed</h5>
-                    <p
-                      class="card-text"
-                    >Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Learn More</a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-6 col-lg-3">
-                <div class="card text-center" style="width: 18rem;">
-                  <img class="card-img-top" src="../assets/IMG_0695.jpg" alt="Card image cap" />
-                  <div class="card-body">
-                    <h5 class="card-title">Natural</h5>
-                    <p
-                      class="card-text"
-                    >Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Learn More</a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-6 col-lg-3">
-                <div class="card text-center" style="width: 18rem;">
-                  <img class="card-img-top" src="../assets/IMG_0707.jpg" alt="Card image cap" />
-                  <div class="card-body">
-                    <h5 class="card-title">Pulp Natural</h5>
-                    <p
-                      class="card-text"
-                    >Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Learn More</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-=======
           <div>
             <h2 class="processes">Not your average coffee importors</h2>
           </div>
           <div>
             <h3>Four years ago we started importing coffee from our family owned farm named Finca Esperanza. Improving the quality of the cup every year to meet the standards that roasters expected. Now we are branching out to help new farmers we trust, take the same steps we did and gain access to a market they could never reach.</h3>
->>>>>>> develop
           </div>
         </div>
       </div>
@@ -262,19 +189,6 @@ export default {
   methods: {
     submitMessage() {
       if (this.message || this.firstName || this.lastName || this.email) {
-<<<<<<< HEAD
-        db.collection("messages")
-          .add({
-            message: this.message,
-            firstName: this.firstName,
-            lastName: this.lastName,
-            email: this.email
-        })
-          .catch(err => {
-            console.log(err);
-          });
-=======
->>>>>>> develop
         this.message = null;
         this.firstName = null;
         this.lastName = null;
