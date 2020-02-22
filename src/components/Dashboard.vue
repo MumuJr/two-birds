@@ -142,8 +142,6 @@
 </template>
 
 <script>
-import db from "./firebaseInit";
-
 export default {
   name: "dashboard",
   data() {
@@ -188,16 +186,6 @@ export default {
   methods: {
     submitMessage() {
       if (this.message || this.firstName || this.lastName || this.email) {
-        db.collection("messages")
-          .add({
-            message: this.message,
-            firstName: this.firstName,
-            lastName: this.lastName,
-            email: this.email
-          })
-          .catch(err => {
-            console.log(err);
-          });
         this.message = null;
         this.firstName = null;
         this.lastName = null;
