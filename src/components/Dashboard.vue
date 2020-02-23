@@ -126,11 +126,7 @@
               <div class="row">
                 <div class="col-md-6">
                   <p v-if="feedback" class="text-danger">{{ feedback }}</p>
-                  <button
-                    v-on:click="submitMessage"
-                    class="btn btn-primary pull-right"
-                    type="submit"
-                  >Send Message</button>
+                  <button class="btn btn-primary pull-right" type="submit">Send Message</button>
                 </div>
                 <div class="col-md-6" data-netlify-recaptcha="true"></div>
               </div>
