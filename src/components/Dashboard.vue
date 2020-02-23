@@ -65,7 +65,7 @@
     <div class="contactus-1 section-image contact-us">
       <div class="col-md-5 col-sm-6 col-8">
         <div class="card card-contact card-raised">
-          <form @sumbit.prevent="submitMessage" action="POST" data-netlify="true">
+          <form name="contact" @sumbit.prevent="submitMessage" action="POST" data-netlify="true">
             <div class="card-header text-center">
               <h4 class="card-title">Contact Us!</h4>
             </div>
