@@ -129,12 +129,10 @@
                   <button
                     v-on:click="submitMessage"
                     class="btn btn-primary pull-right"
-                    type="button"
+                    type="submit"
                   >Send Message</button>
                 </div>
-                <div class="col-md-6">
-                  <div data-netlify-recaptcha="true"></div>
-                </div>
+                <div class="col-md-6" data-netlify-recaptcha="true"></div>
               </div>
             </div>
           </form>
