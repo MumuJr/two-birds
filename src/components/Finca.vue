@@ -1,5 +1,5 @@
 <template>
-  <div id="finca">
+  <div id="finca" class="navbar_padding">
     <div class="container">
       <div class="hero-content py-2 text-center">
         <h1 class="hero-heading">Finca Esperanza</h1>

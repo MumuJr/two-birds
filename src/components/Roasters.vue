@@ -1,5 +1,5 @@
 <template>
-  <div id="roasters">
+  <div id="roasters" class="navbar_padding">
     <!-- Roasting Type Section  -->
     <div class="container">
       <div class="hero-content text-center">
@@ -24,7 +24,7 @@
             aria-selected="true"
           >Washed</a>
         </li>
-        
+
         <li class="nav-item">
           <a
             class="nav-link"
@@ -66,7 +66,7 @@
                 <div class="col-xl-4 col-sm-6">
                   <div class="product">
                     <div class="product-image">
-                      <img src="../assets/domestique.jpeg" alt="product" class="img-fluid">
+                      <img src="../assets/domestique.jpeg" alt="product" class="img-fluid" />
                     </div>
                     <div class="py-2">
                       <a
@@ -88,7 +88,7 @@
                         src="../assets/PHOENIX_BagFront-Smart-Esperanza.png"
                         alt="Blue Print Coffee"
                         class="img-fluid"
-                      >
+                      />
                     </div>
                     <div class="py-2">
                       <a
@@ -105,7 +105,7 @@
                 <div class="col-xl-4 col-sm-6">
                   <div class="product">
                     <div class="product-image" id="chosenbean">
-                      <img src="../assets/chosenbean.jpg" alt="product" class="img-fluid">
+                      <img src="../assets/chosenbean.jpg" alt="product" class="img-fluid" />
                     </div>
                     <div class="py-2">
                       <a
@@ -119,10 +119,10 @@
                     </div>
                   </div>
                 </div>
-                 <div class="col-xl-4 col-sm-6">
+                <div class="col-xl-4 col-sm-6">
                   <div class="product">
                     <div class="product-image" id="chosenbean">
-                      <img src="../assets/chosenbean.jpg" alt="product" class="img-fluid">
+                      <img src="../assets/chosenbean.jpg" alt="product" class="img-fluid" />
                     </div>
                     <div class="py-2">
                       <a
@@ -151,7 +151,7 @@
                 <div class="col-xl-4 col-sm-6">
                   <div class="product">
                     <div class="product-image">
-                      <img src="../assets/GoodmanCoffee.png" alt="product" class="img-fluid">
+                      <img src="../assets/GoodmanCoffee.png" alt="product" class="img-fluid" />
                     </div>
                     <div class="py-2">
                       <a
@@ -173,7 +173,7 @@
                         src="../assets/Blueprint-Coffee-Penrose-v17-600x600.jpg"
                         alt="product"
                         class="img-fluid"
-                      >
+                      />
                     </div>
                     <div class="py-2">
                       <a
@@ -194,7 +194,7 @@
                         src="../assets/Blueprint-Coffee-Penrose-v17-600x600.jpg"
                         alt="product"
                         class="img-fluid"
-                      >
+                      />
                     </div>
                     <div class="py-2">
                       <a
@@ -228,7 +228,7 @@
                         src="../assets/Blueprint-Coffee-Esperanza-Natural_-1024x1024.jpg"
                         alt="product"
                         class="img-fluid"
-                      >
+                      />
                     </div>
                     <div class="py-2">
                       <a
@@ -246,7 +246,7 @@
                 <div class="col-xl-4 col-sm-6">
                   <div class="product">
                     <div class="product-image">
-                      <img src="../assets/contrabean.jpg" alt="product" class="img-fluid">
+                      <img src="../assets/contrabean.jpg" alt="product" class="img-fluid" />
                     </div>
                     <div class="py-2">
                       <a
@@ -263,7 +263,7 @@
                 <div class="col-xl-4 col-sm-6">
                   <div class="product">
                     <div class="product-image">
-                      <img src="../assets/GoodmanCoffee.png" alt="product" class="img-fluid">
+                      <img src="../assets/GoodmanCoffee.png" alt="product" class="img-fluid" />
                     </div>
                     <div class="py-2">
                       <a

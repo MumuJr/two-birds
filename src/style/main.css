@@ -52,7 +52,7 @@ body {
   background-image: url('../assets/IMG_0519.jpg');
   background-size: cover;
   background-position: center;
-  height: 43rem;
+  height: 48rem;
   margin-bottom: 0px;
   display: flex;
   align-items: flex-end;
@@ -307,6 +307,10 @@ a {
 }
 
 /* about us */
+
+.navbar_padding {
+  padding-top: 80px; 
+}
 
 .wrapper {
   display: flex;

@@ -1,5 +1,5 @@
 <template>
-  <div id="aboutus">
+  <div id="aboutus" class="navbar_padding">
     <div class="container wrapper my-5">
       <h1 class="hero-heading text-center">Two Birds Coffee</h1>
       <div class="story my-2">
@@ -9,7 +9,7 @@
 
     <div class="container photos my-3">
       <div>
-        <img class="firstPic" src="../assets/IMG_0827.jpg">
+        <img class="firstPic" src="../assets/IMG_0827.jpg" />
       </div>
     </div>
 
@@ -21,9 +21,9 @@
 
     <div class="container photos my-2">
       <div>
-        <img src="../assets/IMG_1058.jpg">
+        <img src="../assets/IMG_1058.jpg" />
 
-        <img src="../assets/IMG_0958.jpg">
+        <img src="../assets/IMG_0958.jpg" />
       </div>
     </div>
   </div>
