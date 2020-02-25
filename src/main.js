@@ -5,6 +5,17 @@ import App from './App';
 import router from './router';
 import './style/main.css';
 
+
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+import { faFacebookSquare, faInstagramSquare, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+
+
+
+library.add(faFacebookSquare, faInstagramSquare, faLinkedin)
+
+Vue.component('font-awesome-icon', FontAwesomeIcon)
+
 Vue.config.productionTip = false;
 
 /* eslint-disable no-new */
