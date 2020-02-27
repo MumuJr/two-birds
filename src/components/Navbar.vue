@@ -14,7 +14,7 @@
           data-toggle="collapse"
           data-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent"
-          aria-expanded="false"
+          aria-expanded="showNavbar"
           aria-label="Toggle navigation"
         >
           <span class="navbar-toggler-icon"></span>
@@ -61,6 +61,7 @@ export default {
   data() {
     return {
       showNavbar: true,
+      hideDropDown: true,
       lastScrollPosition: 0
     };
   },
@@ -86,6 +87,9 @@ export default {
 
       // Here we determine whether we need to show or hide the navbar
       this.showNavbar = currentScrollPosition < this.lastScrollPosition;
+      if (this.hideDropDown === true) {
+        this.hideDropDown = currentScrollPosition < this.lastScrollPosition;
+      }
       // Set the current scroll position as the last scroll position
       this.lastScrollPosition = currentScrollPosition;
     }
