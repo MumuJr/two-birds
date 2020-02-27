@@ -411,6 +411,53 @@ div .firstPic {
   justify-content: space-around;
 }
 
+/* FOOTER STYLES */
+.socials {
+  display: flex; 
+  flex-direction: column;
+  align-items: center;
+}
+
+.social__list{
+  display: flex; 
+  justify-content: center;
+}
+
+.footer__bottom {
+  background: #4d96d1;
+}
+.footer__bottom_text {
+  color: white;
+}
+.footer__info{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 3% 0 3% 0;
+}
+.footer__rows {
+  width: 100%;
+}
+.footer__list{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.brand__icon{
+  width: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2rem;
+}
+.brand__name {
+  height: 2rem;
+  align-items: center;
+  display: flex;
+}
+
+
+
 /* SLIDER TEST */
 
 /* Slider */
