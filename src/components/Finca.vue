@@ -4,8 +4,8 @@
       <div class="hero-content py-2 text-center">
         <h1 class="hero-heading">Finca Esperanza</h1>
         <p
-          class="lead text-muted"
-        >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum ab natus cum tenetur quia adipisci enim praesentium corrupti eos vel?</p>
+          class="lead text-muted py-2"
+        >Eight years ago Ana Vizcaino inherited a part of her father's farm known as La Esperanza. With little to no knowledge of how to produce coffee she took over with the goal to improve the lives of those who lived in the region</p>
       </div>
       <div>
         <div class="jumbotronFinca"></div>
@@ -26,189 +26,71 @@
           </div>
         </div>
         <hr class="storyhr" />
-        <div class="ourStory">
-          <h1 class="hero-heading py-2">Meet the team</h1>
-          <div class="meetTheTeam">
-            <div class="individuals">
-              <div class="individuals_description">
-                <p
-                  class="individuals_writing"
-                >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam molestiae eius voluptatem blanditiis magni eum soluta rem maiores, accusamus esse quaerat vero nesciunt ullam excepturi facilis eos, beatae pariatur necessitatibus?</p>
-              </div>
-              <img
-                class="profiles"
-                src="../assets/IMG_0702.jpg"
-                alt="Ana with Chris from Strongtree"
-              />
-            </div>
+        <div class="ourStory container">
+          <h1 class="hero-heading py-2">THE STORY</h1>
 
-            <div class="individuals middle py-2">
-              <img
-                class="profiles"
-                src="../assets/IMG_0702.jpg"
-                alt="Ana with Chris from Strongtree"
-              />
-              <div class="individuals_description">
-                <p
-                  class="individuals_writing"
-                >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam molestiae eius voluptatem blanditiis magni eum soluta rem maiores, accusamus esse quaerat vero nesciunt ullam excepturi facilis eos, beatae pariatur necessitatibus?</p>
+          <div class="card col-lg-12" style="max-width: 100%;">
+            <div class="row no-gutters">
+              <div class="col-md-6 align-self-center">
+                <img
+                  class="card-img"
+                  src="../assets/IMG_0702.jpg"
+                  alt="Ana with Chris from Strongtree"
+                />
               </div>
-            </div>
-            <div class="individuals">
-              <div class="individuals_description">
-                <p
-                  class="individuals_writing"
-                >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam molestiae eius voluptatem blanditiis magni eum soluta rem maiores, accusamus esse quaerat vero nesciunt ullam excepturi facilis eos, beatae pariatur necessitatibus?</p>
+              <div class="col-md-6 align-items-center">
+                <div class="card-body">
+                  <p
+                    class="card text-center text-justify individuals_writing"
+                  >It was three generations ago that our great-grandmother, the wife of a humble foreman, decided to start a small tailoring business in Guatemala. With her earnings and a sharp mind, she quickly recognized that there was a market for buying and selling coffee between villages. After seeing some success, she saved up enough money to buy some land, and on that land, she started to plant coffee.</p>
+                </div>
               </div>
-              <img class="profiles" src="../assets/IMG_0822.jpg" alt />
             </div>
           </div>
+
+          <div class="card col-lg-12" style="max-width: 100%;">
+            <div class="row no-gutters">
+              <div class="col-md-6">
+                <div class="card-body">
+                  <p
+                    class="card text-center text-justify individuals_writing"
+                  >Ana’s father, Oscar Bonifasi, who had a great mind for business and agriculture continued to grow the farm throughout his life. Growing different crops throughout the region. During his time Finca Esperanza was being used as an experimental farm. Meaning they would test different varieties of coffees or crops to see how it would grow within the region. When he passed the farms were split among the 4 siblings and Ana was fortunate enough to receive Finca Esperanza.</p>
+                </div>
+              </div>
+              <div class="col-md-6 align-self-center">
+                <img
+                  class="card-img"
+                  src="../assets/IMG_0702.jpg"
+                  alt="Ana with Chris from Strongtree"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="card col-lg-12" style="max-width: 100%;">
+            <div class="row no-gutters">
+              <div class="col-md-6 align-self-center">
+                <img
+                  class="card-img"
+                  src="../assets/IMG_0822.jpg"
+                  alt="Ana with Chris from Strongtree"
+                />
+              </div>
+              <div class="col-md-6 align-items-center">
+                <div class="card-body">
+                  <p
+                    class="card text-center text-justify individuals_writing"
+                  >When Ana finally got her hands on the farm her only concern was the health of the land. She was tired of destroying the land we were given and knew this was the best way to move the farm forward. The Farm is connected to our private nature reserve, La Morenita. The farm currently expands to around 225 acres of land, but only 120 of those acres are actually cultivated. The remaining acres are maintained as a natural rainforest (we do not have the heart to tear it down). The 120 acres of cultivated land has shaded coffee, cloves, mushrooms, and beehives.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
           <hr class="storyhr" />
           <div>
             <h1 class="hero-heading">Our Process</h1>
           </div>
           <div class="ourProcess">
-            <div class="col-md-7">
-              <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
-                <li class="nav-item">
-                  <a
-                    class="nav-link active"
-                    id="pills-washed-tab"
-                    data-toggle="pill"
-                    href="#pills-washed"
-                    role="tab"
-                    aria-controls="pills-washed"
-                    aria-selected="true"
-                  >Washed</a>
-                </li>
-
-                <li class="nav-item">
-                  <a
-                    class="nav-link"
-                    id="pills-natural-tab"
-                    data-toggle="pill"
-                    href="#pills-naturals"
-                    role="tab"
-                    aria-controls="pills-naturals"
-                    aria-selected="false"
-                  >Natural</a>
-                </li>
-                <li class="nav-item">
-                  <a
-                    class="nav-link"
-                    id="pills-honey-tab"
-                    data-toggle="pill"
-                    href="#pills-honey"
-                    role="tab"
-                    aria-controls="pills-honey"
-                    aria-selected="false"
-                  >Honey</a>
-                </li>
-              </ul>
-              <div class="tab-content" id="pills-tabContent">
-                <div
-                  class="tab-pane fade show active"
-                  id="pills-washed"
-                  role="tabpanel"
-                  aria-labelledby="pills-washed-tab"
-                >
-                  <div class="card mb-3" style="max-width: 540px;">
-                    <div class="row no-gutters">
-                      <div class="col-md-4">
-                        <img src="../assets/IMG_0688.jpg" class="card-img" />
-                      </div>
-                      <div class="col-md-8">
-                        <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p
-                            class="card-text"
-                          >This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                          <p class="card-text">
-                            <small class="text-muted">Last updated 3 mins ago</small>
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  class="tab-pane fade"
-                  id="pills-honey"
-                  role="tabpanel"
-                  aria-labelledby="pills-honey-tab"
-                >
-                  <div class="card mb-3" style="max-width: 540px;">
-                    <div class="row no-gutters">
-                      <div class="col-md-4">
-                        <img src="../assets/IMG_0688.jpg" class="card-img" />
-                      </div>
-                      <div class="col-md-8">
-                        <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p
-                            class="card-text"
-                          >This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                          <p class="card-text">
-                            <small class="text-muted">Last updated 3 mins ago</small>
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  class="tab-pane fade"
-                  id="pills-naturals"
-                  role="tabpanel"
-                  aria-labelledby="pills-natural-tab"
-                >
-                  <div class="card mb-3" style="max-width: 540px;">
-                    <div class="row no-gutters">
-                      <div class="col-md-4">
-                        <img src="../assets/IMG_0688.jpg" class="card-img" />
-                      </div>
-                      <div class="col-md-8">
-                        <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p
-                            class="card-text"
-                          >This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                          <p class="card-text">
-                            <small class="text-muted">Last updated 3 mins ago</small>
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  class="tab-pane fade"
-                  id="pills-honey"
-                  role="tabpanel"
-                  aria-labelledby="pills-honey-tab"
-                >
-                  <div class="card mb-3" style="max-width: 540px;">
-                    <div class="row no-gutters">
-                      <div class="col-md-4">
-                        <img src="../assets/IMG_0688.jpg" class="card-img" />
-                      </div>
-                      <div class="col-md-8">
-                        <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p
-                            class="card-text"
-                          >This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                          <p class="card-text">
-                            <small class="text-muted">Last updated 3 mins ago</small>
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
             <!-- Esperanza Tables -->
 
             <div class="card col-md-6" style="max-width: 540px;">

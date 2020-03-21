@@ -383,6 +383,7 @@ div .firstPic {
 .individuals {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .individuals_description{
@@ -390,8 +391,8 @@ div .firstPic {
   justify-content: center;
 }
 
-.individuals_writing {
-  width: 50%;
+.individuals_writing{
+  font-size: 1.4rem;
 }
 
 
@@ -402,8 +403,8 @@ div .firstPic {
 }
 
 .profiles {
-  width: 55%;
-  height: 35%;
+  width: 30rem;
+  height: 23rem;
 }
 
 .ourProcess {
