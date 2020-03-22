@@ -41,7 +41,7 @@
               <div class="col-md-6 align-items-center">
                 <div class="card-body">
                   <p
-                    class="card text-center text-justify individuals_writing"
+                    class="text-left text-justify individuals_writing"
                   >It was three generations ago that our great-grandmother, the wife of a humble foreman, decided to start a small tailoring business in Guatemala. With her earnings and a sharp mind, she quickly recognized that there was a market for buying and selling coffee between villages. After seeing some success, she saved up enough money to buy some land, and on that land, she started to plant coffee.</p>
                 </div>
               </div>
@@ -53,7 +53,7 @@
               <div class="col-md-6">
                 <div class="card-body">
                   <p
-                    class="card text-center text-justify individuals_writing"
+                    class="text-left text-justify individuals_writing"
                   >Ana’s father, Oscar Bonifasi, who had a great mind for business and agriculture continued to grow the farm throughout his life. Growing different crops throughout the region. During his time Finca Esperanza was being used as an experimental farm. Meaning they would test different varieties of coffees or crops to see how it would grow within the region. When he passed the farms were split among the 4 siblings and Ana was fortunate enough to receive Finca Esperanza.</p>
                 </div>
               </div>
@@ -79,7 +79,7 @@
               <div class="col-md-6 align-items-center">
                 <div class="card-body">
                   <p
-                    class="card text-center text-justify individuals_writing"
+                    class="text-left text-justify individuals_writing"
                   >When Ana finally got her hands on the farm her only concern was the health of the land. She was tired of destroying the land we were given and knew this was the best way to move the farm forward. The Farm is connected to our private nature reserve, La Morenita. The farm currently expands to around 225 acres of land, but only 120 of those acres are actually cultivated. The remaining acres are maintained as a natural rainforest (we do not have the heart to tear it down). The 120 acres of cultivated land has shaded coffee, cloves, mushrooms, and beehives.</p>
                 </div>
               </div>

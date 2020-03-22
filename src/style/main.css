@@ -165,7 +165,11 @@ h2 {
   justify-content: space-between;
   flex-direction: column;
   text-align: center;
-  
+}
+.processes_dash {
+  line-height: 2.6rem;
+  font-size: 1.4rem;
+  font-family: "HK Grotesk", sans-serif;
 }
 
 .process {
@@ -393,6 +397,7 @@ div .firstPic {
 
 .individuals_writing{
   font-size: 1.4rem;
+  line-height: 2.4rem;
 }
 
 

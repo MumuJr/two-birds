@@ -14,6 +14,22 @@
 </head>
 
 <body>
+  <form name="contact" action="POST" data-netlify="true" data-netlify-honeypot="bot-field">
+    <p class="hidden">
+      <input type="hidden" name="form-name" value="ask-question" />
+      <div class="card-header text-center">
+        <h4 class="card-title">Contact Us!</h4>
+      </div>
+      <label>First Name <input name="firstName" type="text" /></label>
+      <label>Last Name <input name="lastName" type="text" /></label>
+      <label>Company <input name="company" type="text" /></label>
+      <label>Email Address <input name="email" type="email" /></label>
+      <label>Your Message <input name="message" type="text"></input></label>
+      <button type="submit">Send Message</button>
+      <div class="col-md-6" data-netlify-recaptcha="true"></div>
+    </p>
+  </form>
+
   <div id="app"></div>
   <!-- built files will be auto injected -->
 
