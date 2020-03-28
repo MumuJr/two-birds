@@ -90,7 +90,7 @@
                     type="text"
                     class="form-control"
                     placeholder="John"
-                    v-model="firstName"
+                    v-model="form.firstName"
                   />
                 </div>
                 <div class="col-md-6 pr-2">
@@ -100,7 +100,7 @@
                     type="text"
                     class="form-control"
                     placeholder="Smith"
-                    v-model="lastName"
+                    v-model="form.lastName"
                   />
                 </div>
               </div>
@@ -110,7 +110,7 @@
                   name="company"
                   type="text"
                   class="form-control"
-                  v-model="company"
+                  v-model="form.company"
                   placeholder="Two Birds Coffee"
                 />
               </div>
@@ -120,7 +120,7 @@
                   name="email"
                   type="email"
                   class="form-control"
-                  v-model="email"
+                  v-model="form.email"
                   placeholder="name@example.com"
                 />
               </div>
@@ -130,14 +130,14 @@
                   name="message"
                   type="text"
                   class="form-control"
-                  v-model="message"
+                  v-model="form.message"
                   placeholder="Two Birds changed my life!"
                   rows="4"
                 ></textarea>
               </div>
               <div class="row">
                 <div class="col-md-6">
-                  <p v-if="feedback" class="text-danger">{{ feedback }}</p>
+                  <p v-if="form.feedback" class="text-danger">{{ form.feedback }}</p>
                   <button class="btn btn-primary pull-right" type="submit">Send Message</button>
                 </div>
                 <div class="col-md-6" data-netlify-recaptcha="true"></div>
@@ -239,17 +239,17 @@
 <script>
 export default {
   name: "dashboard",
-  data() {
-    return {
-      firstName: null,
-      lastName: null,
-      email: null,
-      company: null,
-      message: null,
-      feedback: null,
+  data: () => ({
+    form: {
+      firstName: "",
+      lastName: "",
+      email: "",
+      company: "",
+      message: "",
+      feedback: "",
       messages: []
-    };
-  },
+    }
+  }),
   mounted() {
     $(".customer-logos").slick({
       slidesToShow: 5,
@@ -279,16 +279,29 @@ export default {
 
   created() {},
   methods: {
+    encode(data) {
+      return Object.keys(data)
+        .map(
+          key => `${encodeURIComponent(key)}=${encodeURIComponent(data[key])}`
+        )
+        .join("&");
+    },
     submitMessage() {
       if (this.message || this.firstName || this.lastName || this.email) {
-        this.message = null;
-        this.firstName = null;
-        this.lastName = null;
-        this.email = null;
-        this.company = null;
-        this.feedback = null;
+        fetch("/", {
+          method: "post",
+          headers: {
+            "Content-Type": "application/x-www-urlencoded"
+          },
+          body: this.encode({
+            "form-name": "contact",
+            ...this.form
+          })
+        })
+          .then(() => console.log("Message sent"))
+          .catch(e => console.error(e));
       } else {
-        this.feedback = "You must enter a message!";
+        form.feedback = "You must enter a message!";
       }
     }
   }
