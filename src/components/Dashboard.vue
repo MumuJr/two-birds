@@ -287,7 +287,7 @@ export default {
         .join("&");
     },
     submitMessage() {
-      if (this.message || this.firstName || this.lastName || this.email) {
+      if (form.message || form.firstName || form.lastName || form.email) {
         fetch("/", {
           method: "post",
           headers: {
