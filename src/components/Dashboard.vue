@@ -73,7 +73,7 @@
           <form
             name="contact"
             @sumbit.prevent="submitMessage"
-            action="POST"
+            method="POST"
             data-netlify="true"
             data-netlify-honeypot="bot-field"
           >
