@@ -77,6 +77,7 @@
             data-netlify="true"
             data-netlify-honeypot="bot-field"
           >
+            <input type="hidden" name="form-name" value="contact" />
             <div class="card-header text-center">
               <h4 class="card-title">Contact Us!</h4>
             </div>
@@ -287,7 +288,7 @@ export default {
     submitMessage() {
       if (form.message || form.firstName || form.lastName || form.email) {
         fetch("/", {
-          method: "post",
+          method: "POST",
           headers: {
             "Content-Type": "application/x-www-urlencoded"
           },
