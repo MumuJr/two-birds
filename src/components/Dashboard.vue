@@ -77,7 +77,6 @@
             data-netlify="true"
             data-netlify-honeypot="bot-field"
           >
-            <input type="hidden" name="form-name" value="ask-question" />
             <div class="card-header text-center">
               <h4 class="card-title">Contact Us!</h4>
             </div>
