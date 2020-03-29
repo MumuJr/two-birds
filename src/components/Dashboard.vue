@@ -75,7 +75,7 @@
             @sumbit.prevent="submitMessage"
             method="POST"
             data-netlify="true"
-            data-netlify-honeypot="bot-field"
+            netlify-honeypot="bot-field"
           >
             <p style="display: none;" class="hidden">
               <label>
