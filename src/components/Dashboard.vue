@@ -138,7 +138,7 @@
               <div class="row">
                 <div class="col-md-6">
                   <p v-if="form.feedback" class="text-danger">{{ form.feedback }}</p>
-                  <button class="btn btn-primary pull-right" type="submit">Send Message</button>
+                  <button class="btn btn-primary pull-right" type="submitMessage">Send Message</button>
                 </div>
                 <div class="col-md-6" data-netlify-recaptcha="true"></div>
               </div>
@@ -246,8 +246,7 @@ export default {
       email: "",
       company: "",
       message: "",
-      feedback: "",
-      messages: []
+      feedback: ""
     }
   }),
   mounted() {
