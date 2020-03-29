@@ -4,3 +4,4 @@ baseURL = "https://relaxed-torvalds-96f6ed.netlify.com/"
   from = "/*"
   to = "/index.html"
   status = 200
+  
