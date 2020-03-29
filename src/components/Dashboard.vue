@@ -75,7 +75,7 @@
             @sumbit.prevent="submitMessage"
             method="POST"
             data-netlify="true"
-            data-netlify-honeypot="bot-field"
+            netlify-honeypot="bot-field"
           >
             <p style="display: none;" class="hidden">
               <label>
@@ -303,7 +303,7 @@ export default {
     submitMessage() {
       fetch("/", {
         method: "POST",
-        headers: {
+        header: {
           "Content-Type": "application/x-www-form-urlencoded"
         },
         body: this.encode({
