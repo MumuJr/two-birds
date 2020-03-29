@@ -89,61 +89,71 @@
             <div class="card-body">
               <div class="row">
                 <div class="col-md-6 pr-2">
-                  <label for="firstName">First Name</label>
-                  <input
-                    name="firstName"
-                    type="text"
-                    class="form-control"
-                    placeholder="John"
-                    v-model="form.firstName"
-                  />
+                  <label for="firstName">
+                    First Name
+                    <input
+                      name="firstName"
+                      type="text"
+                      class="form-control"
+                      placeholder="John"
+                      v-model="form.firstName"
+                    />
+                  </label>
                 </div>
                 <div class="col-md-6 pr-2">
-                  <label for="lastName">Last Name</label>
-                  <input
-                    name="lastName"
-                    type="text"
-                    class="form-control"
-                    placeholder="Smith"
-                    v-model="form.lastName"
-                  />
+                  <label for="lastName">
+                    Last Name
+                    <input
+                      name="lastName"
+                      type="text"
+                      class="form-control"
+                      placeholder="Smith"
+                      v-model="form.lastName"
+                    />
+                  </label>
                 </div>
               </div>
               <div class="form-group">
-                <label for="company">Company</label>
-                <input
-                  name="company"
-                  type="text"
-                  class="form-control"
-                  v-model="form.company"
-                  placeholder="Two Birds Coffee"
-                />
+                <label for="company" class="form-control" style="background-color: unset;">
+                  Company
+                  <input
+                    name="company"
+                    type="text"
+                    class="form-control"
+                    v-model="form.company"
+                    placeholder="Two Birds Coffee"
+                  />
+                </label>
               </div>
               <div class="form-group">
-                <label for="email">Email Address</label>
-                <input
-                  name="email"
-                  type="email"
-                  class="form-control"
-                  v-model="form.email"
-                  placeholder="name@example.com"
-                />
+                <label for="email" class="form-control" style="background-color: unset;">
+                  Email Address
+                  <input
+                    name="email"
+                    type="email"
+                    class="form-control"
+                    v-model="form.email"
+                    placeholder="name@example.com"
+                  />
+                </label>
               </div>
               <div class="form-group">
-                <label>Your Message</label>
-                <textarea
-                  name="message"
-                  type="text"
-                  class="form-control"
-                  v-model="form.message"
-                  placeholder="Two Birds changed my life!"
-                  rows="4"
-                ></textarea>
+                <label class="form-control" style="background-color: unset;">
+                  Your message
+                  <textarea
+                    name="message"
+                    type="text"
+                    class="form-control"
+                    v-model="form.message"
+                    placeholder="Two Birds changed my life!"
+                    rows="4"
+                  ></textarea>
+                </label>
               </div>
               <div class="row">
                 <div class="col-md-6">
                   <p v-if="form.feedback" class="text-danger">{{ form.feedback }}</p>
-                  <button class="btn btn-primary pull-right" type="submitMessage">Send Message</button>
+                  <button class="btn btn-primary pull-right" type="submit">Send Message</button>
                 </div>
                 <div class="col-md-6" data-netlify-recaptcha="true"></div>
               </div>
@@ -291,22 +301,18 @@ export default {
         .join("&");
     },
     submitMessage() {
-      if (form.message || form.firstName || form.lastName || form.email) {
-        fetch("/", {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/x-www-urlencoded"
-          },
-          body: this.encode({
-            "form-name": "contact",
-            ...this.form
-          })
+      fetch("/", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/x-www-urlencoded"
+        },
+        body: this.encode({
+          "form-name": "contact",
+          ...this.form
         })
-          .then(() => console.log("Message sent"))
-          .catch(e => console.error(e));
-      } else {
-        form.feedback = "You must enter a message!";
-      }
+      })
+        .then(() => console.log("Message sent"))
+        .catch(e => console.error(e));
     }
   }
 };
