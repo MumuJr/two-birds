@@ -90,7 +90,7 @@
             <div class="card-body">
               <div class="row">
                 <div class="col-md-6 pr-2">
-                  <label for="firstName">
+                  <label for="firstName" class="form-control" style="background-color: unset;">
                     First Name
                     <input
                       name="firstName"
@@ -102,7 +102,7 @@
                   </label>
                 </div>
                 <div class="col-md-6 pr-2">
-                  <label for="lastName">
+                  <label for="lastName" class="form-control" style="background-color: unset;">
                     Last Name
                     <input
                       name="lastName"
