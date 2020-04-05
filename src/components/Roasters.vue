@@ -86,13 +86,13 @@
                     <div class="product-image">
                       <img
                         src="../assets/PHOENIX_BagFront-Smart-Esperanza.png"
-                        alt="Blue Print Coffee"
+                        alt="Pheonix Coffee"
                         class="img-fluid"
                       />
                     </div>
                     <div class="py-2">
                       <a
-                        href="https://phoenixcoffee.com/shop/esperanza-guatemala"
+                        href="https://phoenixcoffee.com/"
                         class="btn btn-light btn-md"
                         tabindex="-1"
                         role="button"
@@ -104,18 +104,39 @@
                 </div>
                 <div class="col-xl-4 col-sm-6">
                   <div class="product">
-                    <div class="product-image" id="chosenbean">
-                      <img src="../assets/chosenbean.jpg" alt="product" class="img-fluid" />
+                    <div class="product-image">
+                      <img
+                        src="../assets/Blueprint-Coffee-Penrose-v17-600x600.jpg"
+                        alt="product"
+                        class="img-fluid"
+                      />
                     </div>
                     <div class="py-2">
                       <a
-                        href="https://www.thechosenbean.com/guatemala-the-chosen-bean-origin/"
+                        href="https://blueprintcoffee.com/"
                         class="btn btn-light btn-md"
                         tabindex="-1"
                         role="button"
                         aria
                         disabled="true"
-                      >The Chosen Bean</a>
+                      >Blueprint Coffee</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xl-4 col-sm-6">
+                  <div class="product">
+                    <div class="product-image">
+                      <img src="../assets/brew-ha-ha.jpg" alt="product" class="img-fluid" />
+                    </div>
+                    <div class="py-2">
+                      <a
+                        href="https://www.brewhahabr.com/"
+                        class="btn btn-light btn-md"
+                        tabindex="-1"
+                        role="button"
+                        aria
+                        disabled="true"
+                      >Brew Ha-Ha!</a>
                     </div>
                   </div>
                 </div>
@@ -136,11 +157,33 @@
                     </div>
                   </div>
                 </div>
+                <div class="col-xl-4 col-sm-6">
+                  <div class="product">
+                    <div class="product-image" id="chosenbean">
+                      <img
+                        src="../assets/Guatemala_Java_Planet_Coffee_New_Labels_608x608.jpeg"
+                        alt="product"
+                        class="img-fluid"
+                      />
+                    </div>
+                    <div class="py-2">
+                      <a
+                        href="https://jporganiccoffee.com/collections/bird-friendly/products/guatemala-organic"
+                        class="btn btn-light btn-md"
+                        tabindex="-1"
+                        role="button"
+                        aria
+                        disabled="true"
+                      >Java Planet</a>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
-        <!-- Pulp Natural Clients -->
+
+        <!-- Honey Clients -->
         <div class="tab-pane fade" id="pulp" role="tabpanel" aria-labelledby="pulp-tab">
           <div class="container">
             <div class="col-lg-8 my-3">
@@ -177,7 +220,7 @@
                     </div>
                     <div class="py-2">
                       <a
-                        href="https://blueprintcoffee.com/store/coffee/esperanza/"
+                        href="https://blueprintcoffee.com/"
                         class="btn btn-light btn-md"
                         tabindex="-1"
                         role="button"
@@ -190,21 +233,17 @@
                 <div class="col-xl-4 col-sm-6">
                   <div class="product">
                     <div class="product-image">
-                      <img
-                        src="../assets/Blueprint-Coffee-Penrose-v17-600x600.jpg"
-                        alt="product"
-                        class="img-fluid"
-                      />
+                      <img src="../assets/brew-ha-ha.jpg" alt="product" class="img-fluid" />
                     </div>
                     <div class="py-2">
                       <a
-                        href="https://blueprintcoffee.com/store/coffee/esperanza/"
+                        href="https://www.brewhahabr.com/"
                         class="btn btn-light btn-md"
                         tabindex="-1"
                         role="button"
                         aria
                         disabled="true"
-                      >Blueprint Coffee</a>
+                      >Brew Ha-Ha!</a>
                     </div>
                   </div>
                 </div>

@@ -5,7 +5,7 @@
         <h1 class="hero-heading">Finca Esperanza</h1>
         <p
           class="lead text-muted py-2"
-        >Eight years ago Ana Vizcaino inherited a part of her father's farm known as La Esperanza. With little to no knowledge of how to produce coffee she took over with the goal to improve the lives of those who lived in the region</p>
+        >Eight years ago Ana Vizcaino inherited a part of her father's farm known as Esperanza. With little to no knowledge of how to produce coffee she took over with the goal to improve the lives of those who lived in the region</p>
       </div>
       <div>
         <div class="jumbotronFinca"></div>
@@ -60,7 +60,7 @@
               <div class="col-md-6 align-self-center">
                 <img
                   class="card-img"
-                  src="../assets/IMG_0702.jpg"
+                  src="../assets/IMG_0727.jpg"
                   alt="Ana with Chris from Strongtree"
                 />
               </div>
@@ -92,10 +92,62 @@
           </div>
           <div class="ourProcess">
             <!-- Esperanza Tables -->
+            <div class="col-md-6 px-5 col-sm-12">
+              <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img
+                      class="d-block w-100 img-fluid img-thumbnail"
+                      src="../assets/IMG_7685.jpeg"
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      class="d-block w-100 img-fluid img-thumbnail"
+                      src="../assets/IMG_7681.jpeg"
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100 img-fluid img-thumbnail" src="../assets/IMG_0750.jpg" />
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100 img-fluid img-thumbnail" src="../assets/IMG_0707.jpg" />
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100 img-fluid img-thumbnail" src="../assets/IMG_0695.jpg" />
+                  </div>
+                </div>
+                <a
+                  class="carousel-control-prev"
+                  href="#carouselExampleIndicators"
+                  role="button"
+                  data-slide="prev"
+                >
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a
+                  class="carousel-control-next"
+                  href="#carouselExampleIndicators"
+                  role="button"
+                  data-slide="next"
+                >
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+            </div>
 
-            <div class="card col-md-6" style="max-width: 540px;">
+            <div class="card col-md-6 col-sm-12" style="max-width: 540px;">
               <div class="row no-gutters">
-                <div class="col-md-12">
+                <div class="col-md-12 col-sm-12">
                   <div class="card-body">
                     <table class="table table-hover">
                       <thead>
@@ -121,8 +173,8 @@
 
                           <td colspan="2">
                             <li>Smithsonian Bird Friendly</li>
-                            <li>Organic</li>
-                            <li>Manos De Mujer</li>
+                            <li>USDA Organic</li>
+                            <li>Con Manos De Mujer</li>
                           </td>
                         </tr>
                       </tbody>

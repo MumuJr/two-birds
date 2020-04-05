@@ -20,7 +20,7 @@
       <div class="container">
         <div class="process">
           <div>
-            <h2 class="processes">Not Just Coffee Importors</h2>
+            <h2 class="processes">Not Just Coffee Importers</h2>
           </div>
           <div class="d-flex justify-content-center">
             <p class="text-center text-justify col-8 processes_dash">
