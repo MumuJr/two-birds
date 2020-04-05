@@ -90,9 +90,9 @@
           <div>
             <h1 class="hero-heading">Our Process</h1>
           </div>
-          <div class="ourProcess">
+          <div class="row">
             <!-- Esperanza Tables -->
-            <div class="col-md-6 px-5 col-sm-12">
+            <div class="col-lg-6 col-md-12">
               <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
                   <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -145,41 +145,37 @@
               </div>
             </div>
 
-            <div class="card col-md-6 col-sm-12" style="max-width: 540px;">
+            <div class="col-lg-6 col-md-12" style="max-width: 540px;">
               <div class="row no-gutters">
-                <div class="col-md-12 col-sm-12">
-                  <div class="card-body">
-                    <table class="table table-hover">
-                      <thead>
-                        <tr>
-                          <th scope="col">Finca Esperanza</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td>Altitude</td>
-                          <td>1400 - 1600</td>
-                        </tr>
-                        <tr>
-                          <td>Location</td>
-                          <td>
-                            <a
-                              href="https://goo.gl/maps/DwiNFipQ8kmMuG5fA"
-                            >14°39'14.1"N 91°29'18.3"W</a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>Certifications</td>
+                <div class="card-body col-md-12 col-sm-12">
+                  <table class="table table-hover">
+                    <thead>
+                      <tr>
+                        <th scope="col">Finca Esperanza</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Altitude</td>
+                        <td>1400 - 1600</td>
+                      </tr>
+                      <tr>
+                        <td>Location</td>
+                        <td>
+                          <a href="https://goo.gl/maps/DwiNFipQ8kmMuG5fA">14°39'14.1"N 91°29'18.3"W</a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Certifications</td>
 
-                          <td colspan="2">
-                            <li>Smithsonian Bird Friendly</li>
-                            <li>USDA Organic</li>
-                            <li>Con Manos De Mujer</li>
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
+                        <td colspan="2">
+                          <li>Smithsonian Bird Friendly</li>
+                          <li>USDA Organic</li>
+                          <li>Con Manos De Mujer</li>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
                 </div>
               </div>
             </div>
