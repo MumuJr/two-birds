@@ -50,6 +50,13 @@
 
           <div class="card col-lg-12" style="max-width: 100%;">
             <div class="row no-gutters">
+              <div class="col-md-6 align-self-center d-sm-block d-md-none">
+                <img
+                  class="card-img"
+                  src="../assets/IMG_0727.jpg"
+                  alt="Ana with Chris from Strongtree"
+                />
+              </div>
               <div class="col-md-6">
                 <div class="card-body">
                   <p
@@ -57,7 +64,7 @@
                   >Ana’s father, Oscar Bonifasi, who had a great mind for business and agriculture continued to grow the farm throughout his life. Growing different crops throughout the region. During his time Finca Esperanza was being used as an experimental farm. Meaning they would test different varieties of coffees or crops to see how it would grow within the region. When he passed the farms were split among the 4 siblings and Ana was fortunate enough to receive Finca Esperanza.</p>
                 </div>
               </div>
-              <div class="col-md-6 align-self-center">
+              <div class="col-md-6 align-self-center d-sm-none d-md-block">
                 <img
                   class="card-img"
                   src="../assets/IMG_0727.jpg"
@@ -92,7 +99,7 @@
           </div>
           <div class="row">
             <!-- Esperanza Tables -->
-            <div class="col-lg-6 col-md-12">
+            <div class="col-lg-6 px-5 col-md-12">
               <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
                   <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -145,7 +152,7 @@
               </div>
             </div>
 
-            <div class="col-lg-6 col-md-12" style="max-width: 540px;">
+            <div class="card col-lg-6 col-md-12" style="max-width: 540px;">
               <div class="row no-gutters">
                 <div class="card-body col-md-12 col-sm-12">
                   <table class="table table-hover">
