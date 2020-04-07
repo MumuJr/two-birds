@@ -76,6 +76,7 @@
                         role="button"
                         aria
                         disabled="true"
+                        target="_blank"
                       >Domestique Coffee</a>
                     </div>
                   </div>
@@ -98,6 +99,7 @@
                         role="button"
                         aria
                         disabled="true"
+                        target="_blank"
                       >Phoenix Coffee Co.</a>
                     </div>
                   </div>
@@ -119,6 +121,7 @@
                         role="button"
                         aria
                         disabled="true"
+                        target="_blank"
                       >Blueprint Coffee</a>
                     </div>
                   </div>
@@ -136,6 +139,7 @@
                         role="button"
                         aria
                         disabled="true"
+                        target="_blank"
                       >Brew Ha-Ha!</a>
                     </div>
                   </div>
@@ -153,13 +157,32 @@
                         role="button"
                         aria
                         disabled="true"
+                        target="_blank"
                       >The Chosen Bean</a>
                     </div>
                   </div>
                 </div>
                 <div class="col-xl-4 col-sm-6">
                   <div class="product">
-                    <div class="product-image" id="chosenbean">
+                    <div class="product-image" id="strong-tree">
+                      <img src="../assets/Strong-Tree.png" alt="product" class="img-fluid" />
+                    </div>
+                    <div class="py-2">
+                      <a
+                        href="https://strongtreecoffee.com/all/two-birds"
+                        class="btn btn-light btn-md"
+                        tabindex="-1"
+                        role="button"
+                        aria
+                        disabled="true"
+                        target="_blank"
+                      >Strong Tree Coffee</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xl-4 col-sm-6">
+                  <div class="product">
+                    <div class="product-image" id="java-planet">
                       <img
                         src="../assets/Guatemala_Java_Planet_Coffee_New_Labels_608x608.jpeg"
                         alt="product"
@@ -174,6 +197,7 @@
                         role="button"
                         aria
                         disabled="true"
+                        target="_blank"
                       >Java Planet</a>
                     </div>
                   </div>
@@ -204,6 +228,7 @@
                         role="button"
                         aria
                         disabled="true"
+                        target="_blank"
                       >Goodman Coffee</a>
                     </div>
                   </div>
@@ -226,6 +251,7 @@
                         role="button"
                         aria
                         disabled="true"
+                        target="_blank"
                       >Blueprint Coffee</a>
                     </div>
                   </div>
@@ -243,6 +269,7 @@
                         role="button"
                         aria
                         disabled="true"
+                        target="_blank"
                       >Brew Ha-Ha!</a>
                     </div>
                   </div>
@@ -277,6 +304,7 @@
                         role="button"
                         aria
                         disabled="true"
+                        target="_blank"
                       >Blueprint Coffee</a>
                     </div>
                   </div>
@@ -295,6 +323,7 @@
                         role="button"
                         aria
                         disabled="true"
+                        target="_blank"
                       >Contrabean Roasting</a>
                     </div>
                   </div>
@@ -312,6 +341,7 @@
                         role="button"
                         aria
                         disabled="true"
+                        target="_blank"
                       >Goodman Coffee</a>
                     </div>
                   </div>

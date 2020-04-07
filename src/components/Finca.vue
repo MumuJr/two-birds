@@ -164,7 +164,12 @@
                     <tbody>
                       <tr>
                         <td>Altitude</td>
-                        <td>1400 - 1600</td>
+                        <td>1400 - 1600 M.A.S.L</td>
+                      </tr>
+
+                      <tr>
+                        <td>Varietal</td>
+                        <td>Pure Heirloom Caturra & Catuai Arabica</td>
                       </tr>
                       <tr>
                         <td>Location</td>

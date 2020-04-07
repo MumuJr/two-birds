@@ -38,31 +38,51 @@
 
     <div class="customer-logos">
       <div class="slide">
-        <img src="../assets/domestique.png" />
+        <a href="https://www.domestiquecoffee.com/" target="_blank">
+          <img src="../assets/domestique.png" />
+        </a>
       </div>
       <div class="slide">
-        <img src="../assets/cattleDog.jpg" />
+        <a href="https://www.cattledogcoffeeroasters.com/" target="_blank">
+          <img src="../assets/cattleDog.jpg" />
+        </a>
       </div>
       <div class="slide">
-        <img src="../assets/phoenix.jpeg" />
+        <a href="https://phoenixcoffee.com/">
+          <img src="../assets/phoenix.jpeg" />
+        </a>
       </div>
       <div class="slide">
-        <img src="../assets/strongtree.png" />
+        <a href="https://strongtreecoffee.com/">
+          <img src="../assets/strongtree.png" />
+        </a>
       </div>
       <div class="slide">
-        <img src="../assets/bluePrint.jpg" />
+        <a href="https://blueprintcoffee.com/">
+          <img src="../assets/bluePrint.jpg" />
+        </a>
       </div>
       <div class="slide">
-        <img src="../assets/Goodman+Icon.png" />
+        <a href="https://www.goodmancoffeeroasters.com/buy-coffee/standardbeans">
+          <img src="../assets/Goodman+Icon.png" />
+        </a>
       </div>
       <div class="slide">
-        <img src="../assets/contrabean.png" />
+        <a
+          href="https://www.contrabean.ca/collections/coffee-offerings/products/guatemala-la-esperanza"
+        >
+          <img src="../assets/contrabean.png" />
+        </a>
       </div>
       <div class="slide">
-        <img src="../assets/theRoasterie.png" />
+        <a href="https://theroasterie.com/">
+          <img src="../assets/theRoasterie.png" />
+        </a>
       </div>
       <div class="slide">
-        <img src="../assets/JavaPlanet-copy-4.jpg" />
+        <a href="https://jporganiccoffee.com/">
+          <img src="../assets/JavaPlanet-copy-4.jpg" />
+        </a>
       </div>
     </div>
 
