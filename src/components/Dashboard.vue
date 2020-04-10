@@ -26,8 +26,7 @@
             <p class="text-center text-justify col-8 processes_dash">
               Four years ago we started importing coffee from our family owned farm named Finca Esperanza. Improving
               the quality of the cup every year to meet the standards that roasters expected. Now we are branching out
-              to help new farmers we trust, take the same steps we did and gain access to a market they could never
-              reach.
+              to help new farmers we trust, helping them to take the same steps we did and gain access to a market they currently can't reach.
             </p>
           </div>
         </div>

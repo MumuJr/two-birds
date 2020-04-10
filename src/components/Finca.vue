@@ -5,7 +5,7 @@
         <h1 class="hero-heading">Finca Esperanza</h1>
         <p
           class="lead text-muted py-2"
-        >Eight years ago Ana Vizcaino inherited a part of her father's farm known as Esperanza. With little to no knowledge of how to produce coffee she took over with the goal to improve the lives of those who lived in the region</p>
+        >Eight years ago Ana Vizcaino inherited a part of her father's farm known as Esperanza. With little to no knowledge of how to produce coffee, she took over with the goal to improve the lives of those who lived in the region</p>
       </div>
       <div>
         <div class="jumbotronFinca"></div>
@@ -27,7 +27,7 @@
         </div>
         <hr class="storyhr" />
         <div class="ourStory container">
-          <h1 class="hero-heading py-2">THE STORY</h1>
+          <h1 class="hero-heading py-2">HISTORY</h1>
 
           <div class="card col-lg-12" style="max-width: 100%;">
             <div class="row no-gutters">
@@ -64,7 +64,7 @@
                   >Ana’s father, Oscar Bonifasi, who had a great mind for business and agriculture continued to grow the farm throughout his life. Growing different crops throughout the region. During his time Finca Esperanza was being used as an experimental farm. Meaning they would test different varieties of coffees or crops to see how it would grow within the region. When he passed the farms were split among the 4 siblings and Ana was fortunate enough to receive Finca Esperanza.</p>
                 </div>
               </div>
-              <div class="col-md-6 align-self-center d-sm-none d-md-block">
+              <div class="col-md-6 align-self-center d-none d-sm-block">
                 <img
                   class="card-img"
                   src="../assets/IMG_0727.jpg"
@@ -92,10 +92,14 @@
               </div>
             </div>
           </div>
+          <hr class="storyhr" />
+          <div>
+            <h1 class="hero-heading">Community</h1>
+          </div>
 
           <hr class="storyhr" />
           <div>
-            <h1 class="hero-heading">Our Process</h1>
+            <h1 class="hero-heading">Process</h1>
           </div>
           <div class="row">
             <!-- Esperanza Tables -->
