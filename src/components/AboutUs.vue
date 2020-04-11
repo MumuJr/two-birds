@@ -23,14 +23,15 @@
           >Ana, the farm owner (and our mother), agreed to send us a “trial run” of twenty-five bags to sell out of a garage. After reaching out to some specialty roasters (a lot of specialty roasters), we quickly realized that, while an organic product, the quality of our coffee was not meeting the demands of the industry. Not only that, but we realized our soil health may not be quite as great as we initially believed. Thus began the long journey of quality improvement and control. As our quality improved year by year, we steadily began to sell to an incredible group of roasters.</p>
         </div>
       </div>
-
-      <div class="photos my-2">
-        <div>
-          <img src="../assets/IMG_1058.jpg" />
-          <img src="../assets/IMG_0958.jpg" />
-        </div>
+    </div>
+    <div class="photos my-2">
+      <div>
+        <img src="../assets/andrew.jpg" class="img-fluid middle_image" />
+        <img src="../assets/goodmans.jpg" class="img-fluid middle_image" />
+        <img src="../assets/christopher.jpg" class="img-fluid middle_image" />
       </div>
-
+    </div>
+    <div class="container">
       <div class="wrapper">
         <div class="story my-4">
           <p

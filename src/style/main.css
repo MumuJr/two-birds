@@ -341,11 +341,11 @@ a {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  width: 100%;
 }
 
-.photos img {
-  width: 45%;
-  height: 25%;
+.middle_image{
+  width: unset;
 }
 
 div .firstPic {
