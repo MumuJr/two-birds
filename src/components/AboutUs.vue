@@ -24,8 +24,8 @@
         </div>
       </div>
     </div>
-    <div class="photos my-2">
-      <div>
+    <div class="photos_middle my-2">
+      <div class="middle_section">
         <img src="../assets/andrew.jpg" class="img-fluid middle_image" />
         <img src="../assets/goodmans.jpg" class="img-fluid middle_image" />
         <img src="../assets/christopher.jpg" class="img-fluid middle_image" />
