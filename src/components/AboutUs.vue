@@ -9,10 +9,28 @@
           >Two Birds Coffee began, strangely, from the sadness of seeing our family owned coffees being dumped into commodity bags and sold on the C-Market. Earning less than it cost to produce the product, we were struggling to make ends meet on Finca Esperanza in Guatemala. With plagues like Roya, producing enough coffee on an organic farm to sustain harvest was simply not possible. If harvest alone wasn’t enough of a problem, payment standards and minimizing ecological footprint on the farm were also driving the cost of production to new heights. We simply needed to make more than the C-Market was offering. Avoiding the C-Market altogether became our first goal.</p>
         </div>
       </div>
-
-      <div class="photos my-3">
-        <div>
-          <img class="firstPic" src="../assets/IMG_0827.jpg" />
+      <div class="box_photos container">
+        <div class="box_photos_rows">
+          <div class="box">
+            <img src="../assets/andrew.jpg" alt="..." class="img-thumbnail" />
+          </div>
+          <div class="box">
+            <img src="../assets/IMG_3981.jpg" alt="..." class="img-thumbnail" />
+          </div>
+          <div class="box">
+            <img src="../assets/IMG_1567.jpeg" alt="..." class="img-thumbnail" />
+          </div>
+        </div>
+        <div class="box_photos_rows">
+          <div class="box">
+            <img src="../assets/20170212_141252.jpg" alt="..." class="img-thumbnail" />
+          </div>
+          <div class="box">
+            <img src="../assets/IMG_3973.jpg" alt="..." class="img-thumbnail" />
+          </div>
+          <div class="box">
+            <img src="../assets/christopher.jpg" alt="..." class="img-thumbnail" />
+          </div>
         </div>
       </div>
 
@@ -24,11 +42,9 @@
         </div>
       </div>
     </div>
-    <div class="photos_middle my-2">
-      <div class="middle_section">
-        <img src="../assets/andrew.jpg" class="img-fluid middle_image" />
-        <img src="../assets/goodmans.jpg" class="img-fluid middle_image" />
-        <img src="../assets/christopher.jpg" class="img-fluid middle_image" />
+    <div class="photos my-3 container">
+      <div>
+        <img class="firstPic" src="../assets/goodmans.jpg" />
       </div>
     </div>
     <div class="container">
@@ -37,6 +53,11 @@
           <p
             class="text-justify processes_dash"
           >Two Birds Coffee now imports from a variety of farms in Guatemala, and we take the same approach with these coffees as we did in the beginning with Esperanza. Our goal is not only to deliver great coffees to roasters, but also to ensure that the ecological and socioeconomic impacts of our trade are only positive in nature, improving the communities of the coffee producers. We are a family owned and operated business, with a commitment to improve year after year. Our goal is to leave the land and our little world better off than when we arrived. Join us in our adventure.</p>
+        </div>
+      </div>
+      <div class="photos my-3">
+        <div>
+          <img class="firstPic" src="../assets/IMG_0827.jpg" />
         </div>
       </div>
     </div>

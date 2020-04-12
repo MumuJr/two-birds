@@ -349,6 +349,24 @@ a {
   justify-content: center;
   width: 100%;
 }
+.box_photos{
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;
+  justify-content: space-between;
+  
+}
+.box_photos_rows{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.box{
+  display: flex;
+}
 
 .photos_middle .middle_section{
   display: flex;
