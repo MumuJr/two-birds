@@ -5,7 +5,7 @@
             <img src="../assets/andrew.jpg" class="img-thumbnail" />
           </div>
           <div class="box">
-            <img src="../assets/IMG_3981.jpg" class="img-thumbnail" />
+            <img src="../assets/diego_momSCA.jpg" class="img-thumbnail" />
           </div>
           <div class="box">
             <img src="../assets/IMG_1567.jpeg" class="img-thumbnail" />
@@ -16,7 +16,7 @@
             <img src="../assets/20170212_141252.jpg" class="img-thumbnail" />
           </div>
           <div class="box">
-            <img src="../assets/IMG_3973.jpg" class="img-thumbnail" />
+            <img src="../assets/diego-mom-sca.jpg" class="img-thumbnail" />
           </div>
           <div class="box">
             <img src="../assets/christopher.jpg" alt="..." class="img-thumbnail" />
