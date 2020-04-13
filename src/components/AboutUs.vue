@@ -10,7 +10,7 @@
         </div>
       </div>
 
-     <photo-container></photo-container>
+     <photo-container> </photo-container>
 
       <div class="wrapper">
         <div class="story my-4">
