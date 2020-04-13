@@ -9,30 +9,8 @@
           >Two Birds Coffee began, strangely, from the sadness of seeing our family owned coffees being dumped into commodity bags and sold on the C-Market. Earning less than it cost to produce the product, we were struggling to make ends meet on Finca Esperanza in Guatemala. With plagues like Roya, producing enough coffee on an organic farm to sustain harvest was simply not possible. If harvest alone wasn’t enough of a problem, payment standards and minimizing ecological footprint on the farm were also driving the cost of production to new heights. We simply needed to make more than the C-Market was offering. Avoiding the C-Market altogether became our first goal.</p>
         </div>
       </div>
-      <div class="box_photos container">
-        <div class="box_photos_rows">
-          <div class="box">
-            <img src="../assets/andrew.jpg" class="img-thumbnail" />
-          </div>
-          <div class="box">
-            <img src="../assets/IMG_3981.jpg" class="img-thumbnail" />
-          </div>
-          <div class="box">
-            <img src="../assets/IMG_1567.jpeg" class="img-thumbnail" />
-          </div>
-        </div>
-        <div class="box_photos_rows">
-          <div class="box">
-            <img src="../assets/20170212_141252.jpg" class="img-thumbnail" />
-          </div>
-          <div class="box">
-            <img src="../assets/IMG_3973.jpg" class="img-thumbnail" />
-          </div>
-          <div class="box">
-            <img src="../assets/christopher.jpg" alt="..." class="img-thumbnail" />
-          </div>
-        </div>
-      </div>
+
+     <photo-container></photo-container>
 
       <div class="wrapper">
         <div class="story my-4">
@@ -65,8 +43,13 @@
 </template>
 
 <script>
+import PhotoContainer from './PhotoContainer.vue'
+
 export default {
   name: "aboutus",
+  components: {
+    PhotoContainer
+  }, 
   data() {
     return {};
   }
