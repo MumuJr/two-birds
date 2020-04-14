@@ -94,11 +94,6 @@
           </div>
           <hr class="storyhr" />
           <div>
-            <h1 class="hero-heading">Community</h1>
-          </div>
-
-          <hr class="storyhr" />
-          <div>
             <h1 class="hero-heading">Process</h1>
           </div>
           <div class="row">
