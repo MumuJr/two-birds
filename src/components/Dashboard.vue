@@ -20,7 +20,7 @@
       <div class="container">
         <div class="process">
           <div>
-            <h2 class="processes">Not Just Coffee Importers</h2>
+            <h1 class="processes hero-heading">Not Just Coffee Importers</h1>
           </div>
           <div class="d-flex justify-content-center">
             <p class="text-center text-justify col-8 processes_dash">
@@ -195,7 +195,7 @@
               <!-- Links -->
               <h5 class="font-weight-bold text-uppercase mt-3 mb-2">Two Birds Coffee</h5>
               <div>
-                <p>Farm owners, importers, and exporters</p>
+                <p>Farmers, importers, and exporters.</p>
                 <p>Our passion is coffee</p>
               </div>
             </div>
