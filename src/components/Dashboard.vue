@@ -221,13 +221,19 @@
                 </ul>
                 <ul class="list-unstyled footer__list">
                   <li class="brand__name">
-                    <span>FaceBook</span>
+                    <a href="https://www.facebook.com/TwoBirdsCoffee/">
+                      <span>Facebook</span>
+                    </a>
                   </li>
                   <li class="brand__name">
-                    <span>Instagram</span>
+                    <a href="https://www.instagram.com/twobirdscoffee/">
+                      <span>Instagram</span>
+                    </a>
                   </li>
                   <li class="brand__name">
-                    <span>LinkedIn</span>
+                    <a href="https://www.linkedin.com/company/two-birds-coffee">
+                      <span>LinkedIn</span>
+                    </a>
                   </li>
                 </ul>
               </div>
