@@ -95,7 +95,6 @@
             method="POST"
             data-netlify="true"
             netlify-honeypot="bot-field"
-            data-netlify-recaptcha="true"
           >
             <input type="hidden" name="form-name" value="contact" />
             <p style="display: none;" class="hidden">
@@ -171,7 +170,6 @@
                   <p v-if="form.feedback" class="text-danger">{{ form.feedback }}</p>
                   <button class="btn btn-primary pull-right" type="submit">Send Message</button>
                 </div>
-                <div class="col-md-6" data-netlify-recaptcha="true"></div>
               </div>
             </div>
           </form>
