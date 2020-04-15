@@ -116,7 +116,6 @@
                       name="firstName"
                       type="text"
                       class="form-control"
-                      placeholder="John"
                       v-model="form.firstName"
                     />
                   </label>
@@ -128,7 +127,6 @@
                       name="lastName"
                       type="text"
                       class="form-control"
-                      placeholder="Smith"
                       v-model="form.lastName"
                     />
                   </label>
@@ -142,7 +140,6 @@
                     type="text"
                     class="form-control"
                     v-model="form.company"
-                    placeholder="Two Birds Coffee"
                   />
                 </label>
               </div>
@@ -154,7 +151,6 @@
                     type="email"
                     class="form-control"
                     v-model="form.email"
-                    placeholder="name@example.com"
                   />
                 </label>
               </div>
@@ -166,7 +162,6 @@
                     type="text"
                     class="form-control"
                     v-model="form.message"
-                    placeholder="Two Birds changed my life!"
                     rows="4"
                   ></textarea>
                 </label>
