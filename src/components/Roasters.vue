@@ -59,7 +59,7 @@
         >
           <div class="container">
             <div class="col-lg-8 my-3">
-              <p>Cillum ad ut irure tempor velit nostrud occaecat ullamco aliqua anim Lorem sint. Veniam sint duis incididunt do esse magna mollit excepteur laborum qui. Id id olor in occaecat commodo et voluptate minim reprehenderit mollit pariatur. Deserunt non laborum enim et cillum eu deserunt excepteur ea incididunt minim occaecat.</p>
+              <p>Washed coffee is the bread and butter of our region. We have been working on our washed coffee recipe for 5 years. Adding yeasts during fermentation to increase the shelf life and balance the flavors of our coffee. We feel this coffee best represents our farm.</p>
             </div>
             <div class="products-grid col-xl-9 col-lg-8 order-lg-2">
               <div class="row">
@@ -211,7 +211,7 @@
         <div class="tab-pane fade" id="pulp" role="tabpanel" aria-labelledby="pulp-tab">
           <div class="container">
             <div class="col-lg-8 my-3">
-              <p>Cillum ad ut irure tempor velit nostrud occaecat ullamco aliqua anim Lorem sint. Veniam sint duis incididunt do esse magna mollit excepteur laborum qui. Id id reprehenderit sit est eu aliqua occaecat quis et velit excepteur laborum mollit dolore eiusmod. Ipsum dolor in occaecat commodo et voluptate minim reprehenderit mollit pariatur. Deserunt non laborum enim et cillum eu deserunt excepteur ea incididunt minim occaecat.</p>
+              <p>Our honey process has been changing over the years. It started as a pulped natural and has progressed into a more standard honey. Also inoculated with yeast during the fermentation process to help balance the flavors. This coffee is then dried in the solar house. This process produces very little waste and for that reason is one of our favorite to produce.</p>
             </div>
             <div class="products-grid col-xl-9 col-lg-8 order-lg-2">
               <div class="row">
@@ -283,7 +283,7 @@
         <div class="tab-pane fade" id="natural" role="tabpanel" aria-labelledby="natural-tab">
           <div class="container">
             <div class="col-lg-8 my-3">
-              <p>Cillum ad ut irure tempor velit nostrud occaecat ullamco aliqua anim Lorem sint. Veniam sint duis incididunt do esse magna mollit excepteur laborum qui. Id id reprehenderit sit est eu aliqua occaecat quis et velit excepteur laborum mollit dolore eiusmod. Ipsum dolor in occaecat commodo et voluptate minim reprehenderit mollit pariatur. Deserunt non laborum enim et cillum eu deserunt excepteur ea incididunt minim occaecat.</p>
+              <p>Our highest cupping coffee and easily the most difficult to produce. This requires an immense amount of manual labor. Not only in moving the coffee from the sun to the shade day in and day out but also reviewing the coffee with a black light to remove any beans that have started to go bad.</p>
             </div>
             <div class="products-grid col-xl-9 col-lg-8 order-lg-2">
               <div class="row">
