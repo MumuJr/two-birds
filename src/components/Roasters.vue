@@ -182,6 +182,24 @@
                 </div>
                 <div class="col-xl-4 col-sm-6">
                   <div class="product">
+                    <div class="product-image">
+                      <img src="../assets/contrabean.jpg" alt="product" class="img-fluid" />
+                    </div>
+                    <div class="py-2">
+                      <a
+                        href="https://www.contrabean.ca/collections/coffee-offerings/products/guatemala-la-esperanza"
+                        class="btn btn-light btn-md"
+                        tabindex="-1"
+                        role="button"
+                        aria
+                        disabled="true"
+                        target="_blank"
+                      >Contrabean Roasting</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xl-4 col-sm-6">
+                  <div class="product">
                     <div class="product-image" id="java-planet">
                       <img
                         src="../assets/Guatemala_Java_Planet_Coffee_New_Labels_608x608.jpeg"
@@ -237,28 +255,6 @@
                 <div class="col-xl-4 col-sm-6">
                   <div class="product">
                     <div class="product-image">
-                      <img
-                        src="../assets/Blueprint-Coffee-Penrose-v17-600x600.jpg"
-                        alt="product"
-                        class="img-fluid"
-                      />
-                    </div>
-                    <div class="py-2">
-                      <a
-                        href="https://blueprintcoffee.com/"
-                        class="btn btn-light btn-md"
-                        tabindex="-1"
-                        role="button"
-                        aria
-                        disabled="true"
-                        target="_blank"
-                      >Blueprint Coffee</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-xl-4 col-sm-6">
-                  <div class="product">
-                    <div class="product-image">
                       <img src="../assets/brew-ha-ha.jpg" alt="product" class="img-fluid" />
                     </div>
                     <div class="py-2">
@@ -298,7 +294,7 @@
                     </div>
                     <div class="py-2">
                       <a
-                        href="https://blueprintcoffee.com/store/coffee/esperanza-natural/"
+                        href="https://blueprintcoffee.com"
                         class="btn btn-light btn-md"
                         tabindex="-1"
                         role="button"
@@ -309,7 +305,6 @@
                     </div>
                   </div>
                 </div>
-
                 <div class="col-xl-4 col-sm-6">
                   <div class="product">
                     <div class="product-image">
