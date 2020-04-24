@@ -8,7 +8,9 @@
         >Eight years ago Ana Vizcaino inherited a part of her father's farm known as Esperanza. With little to no knowledge of how to produce coffee, she took over with the goal to improve the lives of those who lived in the region</p>
       </div>
       <div>
-        <div class="jumbotronFinca"></div>
+        <div class="jumbotronFinca">
+          <img src="../assets/Esperanza-Logo-Final-large.png" height="225" />
+        </div>
         <hr class="storyhr" />
 
         <!-- Section between (Certifications) -->
