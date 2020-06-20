@@ -10,7 +10,7 @@
         </div>
       </div>
 
-     <photo-container> </photo-container>
+      <photo-container></photo-container>
 
       <div class="wrapper">
         <div class="story my-4">
@@ -22,7 +22,18 @@
     </div>
     <div class="photos my-3 container">
       <div>
-        <img class="firstPic" src="../assets/goodmans.jpg" />
+        <cld-image
+          publicId="https://res.cloudinary.com/twobirds-coffee/image/upload/v1592641221/goodmans_aozuu3.jpg"
+          type="fetch"
+        >
+          <cld-transformation
+            width="1110"
+            height="740"
+            gravity="face"
+            crop="fill"
+            fetchFormat="auto"
+          />
+        </cld-image>
       </div>
     </div>
     <div class="container">
@@ -35,7 +46,18 @@
       </div>
       <div class="photos my-3">
         <div>
-          <img class="firstPic" src="../assets/IMG_0827.jpg" />
+          <cld-image
+            publicId="https://res.cloudinary.com/twobirds-coffee/image/upload/v1592641219/IMG_0827_sopkql.jpg"
+            type="fetch"
+          >
+            <cld-transformation
+              width="1110"
+              height="740"
+              gravity="face"
+              crop="fill"
+              fetchFormat="auto"
+            />
+          </cld-image>
         </div>
       </div>
     </div>
@@ -43,13 +65,13 @@
 </template>
 
 <script>
-import PhotoContainer from './PhotoContainer.vue'
+import PhotoContainer from "./PhotoContainer.vue";
 
 export default {
   name: "aboutus",
   components: {
     PhotoContainer
-  }, 
+  },
   data() {
     return {};
   }

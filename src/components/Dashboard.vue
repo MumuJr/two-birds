@@ -38,54 +38,84 @@
     <div class="customer-logos">
       <div class="slide">
         <a href="https://www.domestiquecoffee.com/" target="_blank">
-          <img src="../assets/domestique.png" />
+          <cld-image
+            publicId="https://res.cloudinary.com/twobirds-coffee/image/upload/v1592641213/domestique_h7rtut.png"
+            type="fetch"
+          ></cld-image>
         </a>
       </div>
       <div class="slide">
         <a href="https://www.cattledogcoffeeroasters.com/" target="_blank">
-          <img src="../assets/cattleDog.jpg" />
+          <cld-image
+            publicId="https://res.cloudinary.com/twobirds-coffee/image/upload/v1592641222/cattleDog_ojazo1.jpg"
+            type="fetch"
+          ></cld-image>
         </a>
       </div>
       <div class="slide">
         <a href="https://phoenixcoffee.com/">
-          <img src="../assets/phoenix.jpeg" />
+          <cld-image
+            publicId="https://res.cloudinary.com/twobirds-coffee/image/upload/v1592641224/phoenix_yvrlmd.jpg"
+            type="fetch"
+          ></cld-image>
         </a>
       </div>
       <div class="slide">
         <a href="https://strongtreecoffee.com/">
-          <img src="../assets/strongtree.png" />
+          <cld-image
+            publicId="https://res.cloudinary.com/twobirds-coffee/image/upload/v1592641224/strongtree_mrm9cl.png"
+            type="fetch"
+          ></cld-image>
         </a>
       </div>
       <div class="slide">
         <a href="https://blueprintcoffee.com/">
-          <img src="../assets/bluePrint.jpg" />
+          <cld-image
+            publicId="https://res.cloudinary.com/twobirds-coffee/image/upload/v1592641222/bluePrint_yf3gbd.jpg"
+            type="fetch"
+          ></cld-image>
         </a>
       </div>
       <div class="slide">
         <a href="https://www.goodmancoffeeroasters.com/buy-coffee/standardbeans">
-          <img src="../assets/Goodman+Icon.png" />
+          <cld-image
+            publicId="https://res.cloudinary.com/twobirds-coffee/image/upload/v1592641223/Goodman_Icon_hzlkav.png"
+            type="fetch"
+          ></cld-image>
         </a>
       </div>
       <div class="slide">
         <a
           href="https://www.contrabean.ca/collections/coffee-offerings/products/guatemala-la-esperanza"
         >
-          <img src="../assets/contrabean.png" />
+          <cld-image
+            publicId="https://res.cloudinary.com/twobirds-coffee/image/upload/v1592641223/contrabean_emdlwe.png"
+            type="fetch"
+          ></cld-image>
         </a>
       </div>
       <div class="slide">
         <a href="https://www.5amdrip.com/">
-          <img src="../assets/5AM_Drip.png" />
+          <cld-image
+            publicId="https://res.cloudinary.com/twobirds-coffee/image/upload/v1592641216/5AM_Drip_oytqof.png"
+            type="fetch"
+          ></cld-image>
         </a>
       </div>
       <div class="slide">
         <a href="https://theroasterie.com/">
-          <img src="../assets/theRoasterie.png" />
+          <cld-image
+            publicId="https://res.cloudinary.com/twobirds-coffee/image/upload/v1592641224/theRoasterie_v1cnot.png"
+            type="fetch"
+          ></cld-image>
         </a>
       </div>
       <div class="slide">
         <a href="https://jporganiccoffee.com/">
-          <img src="../assets/JavaPlanet-copy-4.jpg" />
+          <cld-image
+            publicId="https://res.cloudinary.com/twobirds-coffee/image/upload/v1592641223/JavaPlanet-copy-4_vxn3as.jpg"
+            type="fetch"
+          ></cld-image>
         </a>
       </div>
     </div>
@@ -263,6 +293,19 @@
           <!-- Grid row -->
         </div>
         <!-- Footer Links -->
+        <!-- <cld-image
+          publicId="https://res.cloudinary.com/twobirds-coffee/image/upload/v1592641225/IMG_0662_aidkra.jpg"
+          type="fetch"
+        >
+          <cld-transformation
+            width="300"
+            height="300"
+            gravity="face"
+            radius="max"
+            crop="fill"
+            fetchFormat="auto"
+          />
+        </cld-image>-->
 
         <!-- Copyright -->
         <div class="footer-copyright text-center py-3 footer__bottom">

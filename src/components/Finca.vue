@@ -9,7 +9,18 @@
       </div>
       <div>
         <div class="jumbotronFinca">
-          <img src="../assets/Esperanza-Logo-Final-large.png" height="225" />
+          <cld-image
+            publicId="https://res.cloudinary.com/twobirds-coffee/image/upload/v1592641216/Esperanza-Logo-Final-large_e75fva.png"
+            type="fetch"
+          >
+            <cld-transformation
+              width="320"
+              height="320"
+              gravity="face"
+              crop="fill"
+              fetchFormat="auto"
+            />
+          </cld-image>
         </div>
         <hr class="storyhr" />
 
@@ -17,13 +28,49 @@
         <div class="container marketing">
           <div class="row">
             <div class="col-lg-4 col-md-6">
-              <img class="rounded-circle" src="../assets/BirdFriendly.jpg" width="350" height="225" />
+              <cld-image
+                publicId="https://res.cloudinary.com/twobirds-coffee/image/upload/v1592641216/BirdFriendly_wkyqsw.jpg"
+                type="fetch"
+              >
+                <cld-transformation
+                  width="350"
+                  height="255"
+                  gravity="face"
+                  radius="max"
+                  crop="fill"
+                  fetchFormat="auto"
+                />
+              </cld-image>
             </div>
             <div class="col-lg-4 col-md-6">
-              <img class="rounded-circle" src="../assets/Organic.jpg" width="350" height="225" />
+              <cld-image
+                publicId="https://res.cloudinary.com/twobirds-coffee/image/upload/v1592641216/Organic_uu3vqo.jpg"
+                type="fetch"
+              >
+                <cld-transformation
+                  width="350"
+                  height="255"
+                  gravity="face"
+                  radius="max"
+                  crop="fill"
+                  fetchFormat="auto"
+                />
+              </cld-image>
             </div>
             <div class="col-lg-4 col-md-12">
-              <img class="rounded-circle" src="../assets/ManosDeMujer.jpg" width="350" height="225" />
+              <cld-image
+                publicId="https://res.cloudinary.com/twobirds-coffee/image/upload/v1592641216/ManosDeMujer_qr7bnp.jpg"
+                type="fetch"
+              >
+                <cld-transformation
+                  width="350"
+                  height="255"
+                  gravity="face"
+                  radius="max"
+                  crop="fill"
+                  fetchFormat="auto"
+                />
+              </cld-image>
             </div>
           </div>
         </div>
@@ -34,11 +81,20 @@
           <div class="card col-lg-12" style="max-width: 100%;">
             <div class="row no-gutters">
               <div class="col-md-6 align-self-center">
-                <img
-                  class="card-img"
-                  src="../assets/IMG_0702.jpg"
+                <cld-image
+                  responsive="width"
+                  publicId="https://res.cloudinary.com/twobirds-coffee/image/upload/v1592641222/IMG_0702_ch5aoc.jpg"
+                  type="fetch"
                   alt="Ana with Chris from Strongtree"
-                />
+                >
+                  <cld-transformation
+                    width="524"
+                    height="350"
+                    gravity="face"
+                    crop="fill"
+                    fetchFormat="auto"
+                  />
+                </cld-image>
               </div>
               <div class="col-md-6 align-items-center">
                 <div class="card-body">
@@ -53,11 +109,20 @@
           <div class="card col-lg-12" style="max-width: 100%;">
             <div class="row no-gutters">
               <div class="col-md-6 align-self-center d-sm-block d-md-none">
-                <img
-                  class="card-img"
-                  src="../assets/IMG_0727.jpg"
+                <cld-image
+                  responsive="width"
+                  publicId="https://res.cloudinary.com/twobirds-coffee/image/upload/v1592641222/IMG_0727_qdeufh.jpg"
+                  type="fetch"
                   alt="Ana with Chris from Strongtree"
-                />
+                >
+                  <cld-transformation
+                    width="524"
+                    height="350"
+                    gravity="face"
+                    crop="fill"
+                    fetchFormat="auto"
+                  />
+                </cld-image>
               </div>
               <div class="col-md-6">
                 <div class="card-body">
@@ -67,11 +132,20 @@
                 </div>
               </div>
               <div class="col-md-6 align-self-center d-none d-sm-block">
-                <img
-                  class="card-img"
-                  src="../assets/IMG_0727.jpg"
+                <cld-image
+                  responsive="width"
+                  publicId="https://res.cloudinary.com/twobirds-coffee/image/upload/v1592641222/IMG_0727_qdeufh.jpg"
+                  type="fetch"
                   alt="Ana with Chris from Strongtree"
-                />
+                >
+                  <cld-transformation
+                    width="524"
+                    height="350"
+                    gravity="face"
+                    crop="fill"
+                    fetchFormat="auto"
+                  />
+                </cld-image>
               </div>
             </div>
           </div>
@@ -79,11 +153,20 @@
           <div class="card col-lg-12" style="max-width: 100%;">
             <div class="row no-gutters">
               <div class="col-md-6 align-self-center">
-                <img
-                  class="card-img"
-                  src="../assets/IMG_0822.jpg"
+                <cld-image
+                  responsive="width"
+                  publicId="https://res.cloudinary.com/twobirds-coffee/image/upload/v1592641219/IMG_0822_hinm9i.jpg"
+                  type="fetch"
                   alt="Ana with Chris from Strongtree"
-                />
+                >
+                  <cld-transformation
+                    width="524"
+                    height="350"
+                    gravity="face"
+                    crop="fill"
+                    fetchFormat="auto"
+                  />
+                </cld-image>
               </div>
               <div class="col-md-6 align-items-center">
                 <div class="card-body">
@@ -111,25 +194,84 @@
                 </ol>
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img
-                      class="d-block w-100 img-fluid img-thumbnail"
-                      src="../assets/IMG_7685.jpeg"
-                    />
+                    <cld-image
+                      publicId="https://res.cloudinary.com/twobirds-coffee/image/upload/v1592641224/IMG_7685_qbehjo.jpg"
+                      responsive="width"
+                      type="fetch"
+                      alt="Ana with Chris from Strongtree"
+                    >
+                      <cld-transformation
+                        width="449"
+                        height="330"
+                        gravity="face"
+                        crop="fill"
+                        fetchFormat="auto"
+                      />
+                    </cld-image>
                   </div>
                   <div class="carousel-item">
-                    <img
-                      class="d-block w-100 img-fluid img-thumbnail"
-                      src="../assets/IMG_7681.jpeg"
-                    />
+                    <cld-image
+                      publicId="https://res.cloudinary.com/twobirds-coffee/image/upload/v1592641215/IMG_7681_etn78p.jpg"
+                      responsive="width"
+                      type="fetch"
+                      alt="Ana with Chris from Strongtree"
+                    >
+                      <cld-transformation
+                        width="449"
+                        height="330"
+                        gravity="face"
+                        crop="fill"
+                        fetchFormat="auto"
+                      />
+                    </cld-image>
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100 img-fluid img-thumbnail" src="../assets/IMG_0750.jpg" />
+                    <cld-image
+                      publicId="https://res.cloudinary.com/twobirds-coffee/image/upload/v1592641221/IMG_0707_tgpegh.jpg"
+                      responsive="width"
+                      type="fetch"
+                      alt="Ana with Chris from Strongtree"
+                    >
+                      <cld-transformation
+                        width="449"
+                        height="330"
+                        gravity="face"
+                        crop="fill"
+                        fetchFormat="auto"
+                      />
+                    </cld-image>
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100 img-fluid img-thumbnail" src="../assets/IMG_0707.jpg" />
+                    <cld-image
+                      publicId="https://res.cloudinary.com/twobirds-coffee/image/upload/v1592641221/IMG_0750_bffrwb.jpg"
+                      responsive="width"
+                      type="fetch"
+                      alt="Ana with Chris from Strongtree"
+                    >
+                      <cld-transformation
+                        width="449"
+                        height="330"
+                        gravity="face"
+                        crop="fill"
+                        fetchFormat="auto"
+                      />
+                    </cld-image>
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100 img-fluid img-thumbnail" src="../assets/IMG_0695.jpg" />
+                    <cld-image
+                      publicId="https://res.cloudinary.com/twobirds-coffee/image/upload/v1592641223/IMG_0695_z1d8bb.jpg"
+                      responsive="width"
+                      type="fetch"
+                      alt="Ana with Chris from Strongtree"
+                    >
+                      <cld-transformation
+                        width="449"
+                        height="330"
+                        gravity="face"
+                        crop="fill"
+                        fetchFormat="auto"
+                      />
+                    </cld-image>
                   </div>
                 </div>
                 <a

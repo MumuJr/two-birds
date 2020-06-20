@@ -6,7 +6,18 @@
     >
       <div class="d-flex container">
         <router-link to="/">
-          <img src="../assets/icon-fc-small copy.png" width="55" height="55" />
+          <cld-image
+            publicId="https://res.cloudinary.com/twobirds-coffee/image/upload/v1592641217/icon-fc-small_copy_acpfmj.png"
+            type="fetch"
+          >
+            <cld-transformation
+              width="55"
+              height="55"
+              gravity="face"
+              crop="fill"
+              fetchFormat="auto"
+            />
+          </cld-image>
         </router-link>
         <button
           class="navbar-toggler"

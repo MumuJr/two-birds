@@ -66,7 +66,18 @@
                 <div class="col-xl-4 col-sm-6">
                   <div class="product">
                     <div class="product-image">
-                      <img src="../assets/domestique.jpeg" alt="product" class="img-fluid" />
+                      <cld-image
+                        publicId="https://res.cloudinary.com/twobirds-coffee/image/upload/v1592641215/domestique_ptnn9k.jpg"
+                        type="fetch"
+                        responsive="width"
+                      >
+                        <cld-transformation
+                          width="330"
+                          height="330"
+                          gravity="face"
+                          fetchFormat="auto"
+                        />
+                      </cld-image>
                     </div>
                     <div class="py-2">
                       <a
@@ -85,11 +96,19 @@
                 <div class="col-xl-4 col-sm-6">
                   <div class="product">
                     <div class="product-image">
-                      <img
-                        src="../assets/PHOENIX_BagFront-Smart-Esperanza.png"
-                        alt="Pheonix Coffee"
-                        class="img-fluid"
-                      />
+                      <cld-image
+                        publicId="https://res.cloudinary.com/twobirds-coffee/image/upload/v1592641217/PHOENIX_BagFront-Smart-Esperanza_bmtn9s.png"
+                        type="fetch"
+                        responsive="width"
+                      >
+                        <cld-transformation
+                          width="330"
+                          height="330"
+                          gravity="face"
+                          crop="fill"
+                          fetchFormat="auto"
+                        />
+                      </cld-image>
                     </div>
                     <div class="py-2">
                       <a
@@ -104,14 +123,23 @@
                     </div>
                   </div>
                 </div>
+
                 <div class="col-xl-4 col-sm-6">
                   <div class="product">
                     <div class="product-image">
-                      <img
-                        src="../assets/Blueprint-Coffee-Penrose-v17-600x600.jpg"
-                        alt="product"
-                        class="img-fluid"
-                      />
+                      <cld-image
+                        publicId="https://res.cloudinary.com/twobirds-coffee/image/upload/v1592641216/Blueprint-Coffee-Penrose-v17-600x600_vl2e4b.jpg"
+                        type="fetch"
+                        responsive="width"
+                      >
+                        <cld-transformation
+                          width="330"
+                          height="330"
+                          gravity="face"
+                          crop="fill"
+                          fetchFormat="auto"
+                        />
+                      </cld-image>
                     </div>
                     <div class="py-2">
                       <a
@@ -126,10 +154,23 @@
                     </div>
                   </div>
                 </div>
+
                 <div class="col-xl-4 col-sm-6">
                   <div class="product">
                     <div class="product-image">
-                      <img src="../assets/brew-ha-ha.jpg" alt="product" class="img-fluid" />
+                      <cld-image
+                        publicId="https://res.cloudinary.com/twobirds-coffee/image/upload/v1592652994/brew-ha-ha_nrflue.jpg"
+                        type="fetch"
+                        responsive="width"
+                      >
+                        <cld-transformation
+                          width="330"
+                          height="330"
+                          gravity="face"
+                          crop="fill"
+                          fetchFormat="auto"
+                        />
+                      </cld-image>
                     </div>
                     <div class="py-2">
                       <a
@@ -144,10 +185,23 @@
                     </div>
                   </div>
                 </div>
+
                 <div class="col-xl-4 col-sm-6">
                   <div class="product">
                     <div class="product-image" id="chosenbean">
-                      <img src="../assets/chosenbean.jpg" alt="product" class="img-fluid" />
+                      <cld-image
+                        publicId="https://res.cloudinary.com/twobirds-coffee/image/upload/v1592641215/chosenbean_xfdcl3.jpg"
+                        type="fetch"
+                        responsive="width"
+                      >
+                        <cld-transformation
+                          width="330"
+                          height="330"
+                          gravity="face"
+                          crop="fill"
+                          fetchFormat="auto"
+                        />
+                      </cld-image>
                     </div>
                     <div class="py-2">
                       <a
@@ -162,10 +216,23 @@
                     </div>
                   </div>
                 </div>
+
                 <div class="col-xl-4 col-sm-6">
                   <div class="product">
                     <div class="product-image" id="strong-tree">
-                      <img src="../assets/Strong-Tree.png" alt="product" class="img-fluid" />
+                      <cld-image
+                        publicId="https://res.cloudinary.com/twobirds-coffee/image/upload/v1592641221/Strong-Tree_xnw2ww.png"
+                        type="fetch"
+                        responsive="width"
+                      >
+                        <cld-transformation
+                          width="330"
+                          height="330"
+                          gravity="face"
+                          crop="fill"
+                          fetchFormat="auto"
+                        />
+                      </cld-image>
                     </div>
                     <div class="py-2">
                       <a
@@ -180,10 +247,23 @@
                     </div>
                   </div>
                 </div>
+
                 <div class="col-xl-4 col-sm-6">
                   <div class="product">
                     <div class="product-image">
-                      <img src="../assets/contrabean.jpg" alt="product" class="img-fluid" />
+                      <cld-image
+                        publicId="https://res.cloudinary.com/twobirds-coffee/image/upload/v1592641224/contrabean_lrrgu6.jpg"
+                        type="fetch"
+                        responsive="width"
+                      >
+                        <cld-transformation
+                          width="330"
+                          height="330"
+                          gravity="face"
+                          crop="fill"
+                          fetchFormat="auto"
+                        />
+                      </cld-image>
                     </div>
                     <div class="py-2">
                       <a
@@ -198,14 +278,23 @@
                     </div>
                   </div>
                 </div>
+
                 <div class="col-xl-4 col-sm-6">
                   <div class="product">
                     <div class="product-image" id="java-planet">
-                      <img
-                        src="../assets/Guatemala_Java_Planet_Coffee_New_Labels_608x608.jpeg"
-                        alt="product"
-                        class="img-fluid"
-                      />
+                      <cld-image
+                        publicId="https://res.cloudinary.com/twobirds-coffee/image/upload/v1592641223/Guatemala_Java_Planet_Coffee_New_Labels_608x608_jspqop.jpg"
+                        type="fetch"
+                        responsive="width"
+                      >
+                        <cld-transformation
+                          width="330"
+                          height="330"
+                          gravity="face"
+                          crop="fill"
+                          fetchFormat="auto"
+                        />
+                      </cld-image>
                     </div>
                     <div class="py-2">
                       <a
@@ -236,7 +325,19 @@
                 <div class="col-xl-4 col-sm-6">
                   <div class="product">
                     <div class="product-image">
-                      <img src="../assets/GoodmanCoffee.png" alt="product" class="img-fluid" />
+                      <cld-image
+                        publicId="https://res.cloudinary.com/twobirds-coffee/image/upload/v1592641214/GoodmanCoffee_hnzj5l.png"
+                        type="fetch"
+                      >
+                        <cld-transformation
+                          gravity="auto"
+                          height="330"
+                          width="330"
+                          x="212"
+                          y="894"
+                          crop="fill"
+                        />
+                      </cld-image>
                     </div>
                     <div class="py-2">
                       <a
@@ -255,7 +356,19 @@
                 <div class="col-xl-4 col-sm-6">
                   <div class="product">
                     <div class="product-image">
-                      <img src="../assets/brew-ha-ha.jpg" alt="product" class="img-fluid" />
+                      <cld-image
+                        publicId="https://res.cloudinary.com/twobirds-coffee/image/upload/v1592652994/brew-ha-ha_nrflue.jpg"
+                        type="fetch"
+                        responsive="width"
+                      >
+                        <cld-transformation
+                          width="330"
+                          height="330"
+                          gravity="face"
+                          crop="fill"
+                          fetchFormat="auto"
+                        />
+                      </cld-image>
                     </div>
                     <div class="py-2">
                       <a
@@ -286,11 +399,19 @@
                 <div class="col-xl-4 col-sm-6">
                   <div class="product">
                     <div class="product-image">
-                      <img
-                        src="../assets/Blueprint-Coffee-Esperanza-Natural_-1024x1024.jpg"
-                        alt="product"
-                        class="img-fluid"
-                      />
+                      <cld-image
+                        publicId="https://res.cloudinary.com/twobirds-coffee/image/upload/v1592641213/Blueprint-Coffee-Esperanza-Natural_-1024x1024_lyecjq.jpg"
+                        type="fetch"
+                        responsive="width"
+                      >
+                        <cld-transformation
+                          width="330"
+                          height="330"
+                          gravity="face"
+                          crop="fill"
+                          fetchFormat="auto"
+                        />
+                      </cld-image>
                     </div>
                     <div class="py-2">
                       <a
@@ -305,10 +426,23 @@
                     </div>
                   </div>
                 </div>
+
                 <div class="col-xl-4 col-sm-6">
                   <div class="product">
                     <div class="product-image">
-                      <img src="../assets/contrabean.jpg" alt="product" class="img-fluid" />
+                      <cld-image
+                        publicId="https://res.cloudinary.com/twobirds-coffee/image/upload/v1592641224/contrabean_lrrgu6.jpg"
+                        type="fetch"
+                        responsive="width"
+                      >
+                        <cld-transformation
+                          width="330"
+                          height="330"
+                          gravity="face"
+                          crop="fill"
+                          fetchFormat="auto"
+                        />
+                      </cld-image>
                     </div>
                     <div class="py-2">
                       <a
@@ -323,10 +457,23 @@
                     </div>
                   </div>
                 </div>
+
                 <div class="col-xl-4 col-sm-6">
                   <div class="product">
                     <div class="product-image">
-                      <img src="../assets/GoodmanCoffee.png" alt="product" class="img-fluid" />
+                      <cld-image
+                        publicId="https://res.cloudinary.com/twobirds-coffee/image/upload/v1592641214/GoodmanCoffee_hnzj5l.png"
+                        type="fetch"
+                      >
+                        <cld-transformation
+                          gravity="auto"
+                          height="330"
+                          width="330"
+                          x="212"
+                          y="894"
+                          crop="fill"
+                        />
+                      </cld-image>
                     </div>
                     <div class="py-2">
                       <a

@@ -48,7 +48,7 @@ body {
 }
 
 .jumbotronMain {
-  background-image: url('../assets/IMG_0519.jpg');
+  background-image: url('https://res.cloudinary.com/twobirds-coffee/image/upload/v1592641224/IMG_0519_cctrkq.jpg');
   background-size: cover;
   background-position: center;
   height: 48rem;
@@ -246,7 +246,7 @@ h2 {
 }
 
 .contact-us {
-  background-image: url('../assets/contact.jpg');
+  background-image: url('https://res.cloudinary.com/twobirds-coffee/image/upload/v1592641217/contact_kq1qc6.jpg');
 }
 
 /* Roasting Page */
@@ -366,6 +366,7 @@ a {
 
 .box{
   display: flex;
+  margin: .5%;
 }
 
 .photos_middle .middle_section{
@@ -398,7 +399,7 @@ div .firstPic {
 /* Finca Esperanza */
 
 .jumbotronFinca {
-  background-image: url('../assets/IMG_0662.jpeg');
+  background-image: url('https://res.cloudinary.com/twobirds-coffee/image/upload/v1592641225/IMG_0662_aidkra.jpg');
   background-size: cover;
   background-position: center;
   padding-top: 20%;
